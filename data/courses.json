@@ -1,0 +1,45 @@
+[
+{ 
+    "img":"../img/featured-class/f1.jpg",
+    "title": "300 hours - Yoga Instructor Course (YIC)", 
+    "p1": "Yoga Instructor Course (YIC)",
+    "p2": "in Affiliation with VYASA",
+    "p3": ""
+},
+{ 
+    "img":"../img/featured-class/f1.jpg",
+    "title": "300 hours - Yoga Teacher Training Course", 
+    "p1": "Yoga Teachers Training Course (YTTC)",
+    "p2": "",
+    "p3": ""
+},
+{ 
+    "img":"../img/featured-class/f1.jpg",
+    "title": "Advanced Yoga Training Course (AYTC)", 
+    "p1": "Every Sunday",
+    "p2": "6:00am - 7:30am",
+    "p3": "Jan - Dec"
+},
+{ 
+    "img":"../img/featured-class/f1.jpg",
+    "title": "Bhagvag Gita", 
+    "p1": "Every Sunday",
+    "p2": "4:00pm - 6:00pm",
+    "p3": "Six Semesters Course"
+},
+{ 
+    "img":"../img/featured-class/f1.jpg",
+    "title": "Supreme Master International Yogi Achiever (SMIYA) Course", 
+    "p1": "Every Saturday",
+    "p2": "6:00am - 7:30am",
+    "p3": "Jan - Dec"
+},
+{ 
+    "img":"../img/featured-class/f1.jpg",
+    "title": "Yoga Instruction for Diabetes Mellitus (YIDM)", 
+    "p1": "20 hour course",
+    "p2": "",
+    "p3": ""
+}
+
+]

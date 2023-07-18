@@ -30,6 +30,13 @@
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/jquery-ui.css">
 	<link rel="stylesheet" href="css/main.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<!-- <script src="js/renderCards.js" type="module"></script> -->
+	<script type="module" src="js/renderCards.js"></script>
+
 </head>
 
 <body>
@@ -50,7 +57,42 @@
 						<a href="tel:+880 1234 654 953">
 							<span class="text">+880 1234 654 953</span>
 						</a>
-						<a class="book-now" href="#">Book Now</a>
+
+						<button type="button" class="btn btn-primary ml-50" data-toggle="modal" data-target="#exampleModalCenter">
+							Donate Us
+						</button>
+						  
+						  <!-- Modal -->
+						  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"  data-backdrop="false">
+							<div class="modal-dialog modal-lg modal-dialog-centered " role="document">
+							  <div class="modal-content">
+								<div class="modal-header">
+								  <h3 class="modal-title" id="exampleModalLongTitle">Donate Us</h3>
+								  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								  </button>
+								</div>
+								<div class="modal-body acc-body">
+									<div class="acc-details">
+										<h3>Bank Account Details</h3>
+										<p>Name: Random person</p>
+										<p>Acc No: 12345678901235</p>
+										<p>Ifsc No: ABCD5678901235</p>
+									</div>
+									<div class="vert"></div>
+									<div class="qr-details">
+										<h3>Scan the QR code</h3>
+										<img src="img/qrcode.png">
+									</div>
+								</div>
+								<div class="modal-footer">
+								  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								</div>
+							  </div>
+							</div>
+						  </div>
+
+
 					</div>
 				</div>
 			</div>
@@ -64,20 +106,16 @@
 					<ul class="nav-menu">
 						<li><a class="active" href="index.html">Home</a></li>
 						<li><a href="about.html">About</a></li>
-						<li><a href="trainers.html">Trainers</a></li>
-						<li class="menu-has-children"><a href="">Blog</a>
+						<!-- <li><a href="trainers.html">Trainers</a></li> -->
+						<li class="menu-has-children"><a href="">Our Team</a>
 							<ul>
-								<li><a href="blog-home.html">Blog Home</a></li>
-								<li><a href="blog-single.html">Blog Single</a></li>
+								<li><a href="management.html">Management Team</a></li>
+								<li><a href="trainers.html">Teachers Team</a></li>
 							</ul>
 						</li>
-						<li class="menu-has-children"><a href="">Pages</a>
-							<ul>
-								<li><a href="schedule.html">Schedule</a></li>
-								<li><a href="courses.html">Courses</a></li>
-								<li><a href="elements.html">Elements</a></li>
-							</ul>
-						</li>
+
+						<li><a href="blog-home.html">Blog</a></li>
+						<li><a href="courses.html">Courses</a></li>
 						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</nav><!-- #nav-menu-container -->
@@ -167,126 +205,42 @@
 	</section>
 	<!-- End About Us Area -->
 
-	<!-- Start Features Area -->
+	<!-- Start Classes Area -->
 	<section class="feature-area section-gap">
 		<div class="container">
 			<div class="row d-flex justify-content-center">
 				<div class="col-lg-12">
 					<div class="section-title-wrap text-center">
 						<h1>Our Featured Classes</h1>
-						<p>As you pour the first glass of your favorite Chianti or Chardonnay and settle into an intimate Friday evening.</p>
+						<p>What we do</p>
 					</div>
 				</div>
 			</div>
-			<div class="row justify-content-center d-flex align-items-center">
-				<div class="col-lg-4 col-md-4 single-feature">
-					<figure>
-						<img class="img-fluid" src="img/featured-class/f1.jpg" alt="">
-						<div class="overlay overlay-bg"></div>
-					</figure>
-					<div class="text-center">
-						<h4 class="mb-10">Therapeutic Yoga</h4>
-						<p>
-							<a href="#">Diabetic Therapy</a>
-						</p>
-						<p>
-							<a href="#"> 8:00 AM - 9:30 AM</a>
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 single-feature">
-					<figure>
-						<img class="img-fluid" src="img/featured-class/f1.jpg" alt="">
-						<div class="overlay overlay-bg"></div>
-					</figure>
-					<div class="text-center">
-						<h4 class="mb-10">Prenatal &amp; Postpartum Yoga</h4>
-						<p>
-							<a href="#">Private Session</a>
-						</p>
-						<p>
-							<a href="#"> Based on request</a>
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 single-feature">
-					<figure>
-						<img class="img-fluid" src="img/featured-class/f1.jpg" alt="">
-						<div class="overlay overlay-bg"></div>
-					</figure>
-					<div class="text-center">
-						<h4 class="mb-10">Power Yoga</h4>
-						<p>
-							<a href="#">Mon &#8211; Fri</a>
-						</p>
-						<p>
-							<a href="#"> 6:00pm &#8211; 7:00pm</a>
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 single-feature">
-					<figure>
-						<img class="img-fluid" src="img/featured-class/f1.jpg" alt="">
-						<div class="overlay overlay-bg"></div>
-					</figure>
-					<div class="text-center">
-						<h4 class="mb-10">Laughter Yoga</h4>
-						<p>
-							<a href="#"> Session conducted</a>
-						</p>
-						<p>
-							<a href="#">On Request</a>
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 single-feature">
-					<figure>
-						<img class="img-fluid" src="img/featured-class/f1.jpg" alt="">
-						<div class="overlay overlay-bg"></div>
-					</figure>
-					<div class="text-center">
-						<h4 class="mb-10">Kids Yoga</h4>
-						<p>
-							<a href="#">Kids Yoga Camp</a>
-						</p>
-						<p>
-							<a href="#"> During Holidays</a>
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 single-feature">
-					<figure>
-						<img class="img-fluid" src="img/featured-class/f1.jpg" alt="">
-						<div class="overlay overlay-bg"></div>
-					</figure>
-					<div class="text-center">
-						<h4 class="mb-10"> Corporate Yoga </h4>
-						<p>
-							<a href="#">On appointment</a>
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 single-feature">
-					<figure>
-						<img class="img-fluid" src="img/featured-class/f1.jpg" alt="">
-						<div class="overlay overlay-bg"></div>
-					</figure>
-					<div class="text-center">
-						<h4 class="mb-10">Ashtanga Yoga</h4>
-						<p>
-							<a href="#">Mon &#8211; Fri</a>
-						</p>
-						<p>
-							<a href="#"> 5:00am &#8211; 7:00am</a>
-						</p>
-					</div>
-				</div>
-
+			<div id="classesContainer" class="row justify-content-center d-flex align-items-center">
 
 			</div>
 		</div>
 	</section>
-	<!-- End Features Area -->
+	<!-- End Classes Area -->
+
+	<!-- Start Cources Area -->
+	<section class="feature-area section-gap">
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="col-lg-12">
+					<div class="section-title-wrap text-center">
+						<h1>Our Courses</h1>
+						<p>Specialised Services</p>
+					</div>
+				</div>
+			</div>
+			
+			<div id="coursesContainer" class="row justify-content-center d-flex align-items-center">
+
+			</div>
+		</div>
+	</section>
+	<!-- End Cources Area -->
 
 	<!-- Start schedule Area -->
 	<section class="schedule-area section-gap">
@@ -377,111 +331,22 @@
 			<div class="row d-flex justify-content-center">
 				<div class="col-lg-12">
 					<div class="section-title-wrap text-center">
-						<h1>Client’s Feedback</h1>
+						<h1>Client's Feedback</h1>
 						<p>As you pour the first glass of your favorite Chianti or Chardonnay and settle into an intimate Friday evening.</p>
 					</div>
 				</div>
 			</div>
 
 			<div class="row">
-				<div class="active-testimonial-carusel">
-					<div class="single-testimonial item">
-						<p class="desc">
-							I have attended &#8216;Manaprashamana&#8217; yoga class conducted by Mr. Sadanand Guddad sir. Very effective class. Helped me to overcome my stress, anxiety and insomnia issues. My post-delivery back pain was greatly reduced in just 2 weeks of practice! Through this class and proper diet (suggested by Guddad sir), I lost my post-pregnancy weight by 8 kg in just 3 months!<br>
-Sadanand Guddad is the best yoga guru and I am extremely grateful to him. He was very understanding and helpful, giving personal attention to your health issues.I couldn&#8217;t continue the class due to my work schedule, but I am eagerly looking forward to rejoining the class! I highly recommend this class to everyone who is struggling with stress-related issues.
-						</p>
-						<h4>Sownya Bhatt</h4>
-						
-					</div>
-					<div class="single-testimonial item">
-						<p class="desc">
-							SYVK is a yoga center par excellence. The instructors are experienced and are knowledgeable. If you&#8217;re looking to improve your health, SYVK is the place to be. Guddad Sir&#8217;s class is liberating and has a soothing effect. It&#8217;s been a little over a month, my stress level has reduced and I&#8217;ve almost regained my flexibility. The class timings are convenient. The morning classes start at 5 AM while the evening classes are from 4 PM to 8 PM. If you have a desk job and stress has taken toll on your health, you most certainly need to enroll here.
-						</p>
-						<h4>Avinash Patil</h4>
-
-					</div>
-					<div class="single-testimonial item">
-						<!-- <img class="mx-auto rounded-circle" src="img/t3.png" alt=""> -->
-						<p class="desc">
-							Shree Yoga Vijnana Kendra is one of the best yoga centres at Yelahanka . The instructors are very experienced. In case, you&#8217;re looking to improve your health, this is the best place.<br>
-Guddad Sir&#8217;s is a very good yoga teacher who taught me at beginner level. It&#8217;s easy to understand and I really enjoyed it.Through his guidance, I have learnt to not force myself into postures and to be more connected with a calm breath.I have been practicing yoga from past 3-4 months, I can feel calmness in mind. I would highly recommend this place.
-						</p>
-						<h4>Preethu A R</h4>
-
-					</div>
-					<div class="single-testimonial item">
-						<!-- <img class="mx-auto rounded-circle" src="img/t1.png" alt=""> -->
-						<p class="desc">
-							It's difficult to say in words, it's just a feeling. Gauri ma&#8217;am, Lakshmi Ma&#8217;am, thanks for being an awesome yoga instructors! A really positive and growing experience. You all explain the benefits of asanas in a very clear and understandable manner. Technical glitches are common n I ignore. Online classes are better during lock down period as it is keeping us rejuvenated. Thankyou to Gayatri Ma&#8217;am for supporting technically. Overall from the heart to you all. Thank you! 😊
-						</p>
-						<h4>Sandhya Rani</h4>
-
-					</div>
-
-					<div class="single-testimonial item">
-						<!-- <img class="mx-auto rounded-circle" src="img/t3.png" alt=""> -->
-						<p class="desc">
-							The teachers are professional and committed . During this COVID crisis also they are conducting online on request. Yoga during this crisis has helped me to loosen my muscles and stay fresh throughout my day. Thanks to SYVk for this offer.
-						</p>
-						<h4>Dr C Srinivas</h4>
-
-					</div>
-					<div class="single-testimonial item">
-						<!-- <img class="mx-auto rounded-circle" src="img/t1.png" alt=""> -->
-						<p class="desc">
-							A friend introduced me to SYVK. In the past, I did not enjoy yoga classes much and was never consistent. But this time, it&#8217;s been a pleasantly different experience. I enjoy the asana&#8217;s and the variations which enable me to push myself, teacher ensures that it does not become monotonous, she touches both physical and mental aspects, and also caters to individual needs while making us comfortable. I am experiencing a positive change in me both physically and mentally and and look forward to every session. A big thank you to my teacher and SYVK.
-						</p>
-						<h4>Shilpa Joshi</h4>
-
-					</div>
-
-					<div class="single-testimonial item">
-						<!-- <img class="mx-auto rounded-circle" src="img/t3.png" alt=""> -->
-						<p class="desc">
-							I completed Advanced Yoga Training Course in 2018 and SMIYA in 2019 under the guidance of Acharya Dr. B.K.Chandrashekhar. Before this, i had very little knowledge of yoga and yogic practises. After regular practise of Advance yoga with my able Guruji, i am experiencing positive changes which are seen only much later in a normal yoga practise. i am very thankful to SYVK for this opportunity. I am very happy to be part of SYVK family which has experienced and dedicated teachers.i am also grateful for the many opportunities i got through SYVK in District Level and State Level Yoga competitions. I recommend all health enthusiasts of all ages to join this centre.
-						</p>
-						<h4>Haripriya A</h4>
-
-					</div>
-					<div class="single-testimonial item">
-						<!-- <img class="mx-auto rounded-circle" src="img/t3.png" alt=""> -->
-						<p class="desc">
-							Shree Yoga Vijnana Kendra is one of the few yoga centres in Bangalore which teaches yoga in it&#8217;s purest form .One of the key highlights of this centre are it&#8217;s teachers. The teachers are extremely dedicated and passionate. They are quite patient and ensure the students attain perfection of the postures .Most importantly for every asanas the teachers take an extra effort to educate the students on which body part gets benefited, how a certain asana benefits the mind etc..I highly recommend this centre for anyone who wishes to learn yoga the right way .They are also offering online classes now upon request
-						</p>
-						<h4>Sid A R</h4>
-
-					</div>
-					<div class="single-testimonial item">
-						<!-- <img class="mx-auto rounded-circle" src="img/t3.png" alt=""> -->
-						<p class="desc">
-							I have been practising yoga for many years now with SYVK. After moving to UK I am continuing yoga through SYVK online sessions. The sessions are very interactive and guided by experienced yoga teachers including Lakshmi and Gowri. In a mixed ability class, I have observed that the mix of asanas is just right, providing exercise and challenges to all. I continue to learn from and enjoy the SYVK online classes.
-						</p>
-						<h4>Gayathri K.R</h4>
-
-					</div>
+				<div id="testimonialContainer" class="active-testimonial-carusel">
+					
+					
 				</div>
 			</div>
 		</div>
 	</section>
 	<!-- End testomial Area -->
 
-	<!-- Start cta-one Area -->
-	<!-- <section class="cta-one-area relative section-gap">
-		<img class="cta-img img-fluid" src="img/cta-img.png" alt="">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="wrap">
-					<h1>Huge Transaction in last Week</h1>
-					<p>
-						Thinking about overseas adventure travel? Have you put any thought into the best places to go when it comes to overseas adventure
-						travel?
-					</p>
-					<a class="primary-btn" href="#">Become a Member</a>
-				</div>
-			</div>
-		</div>
-	</section> -->
-	<!-- End cta-one Area -->
 
 	<!-- Start blog Area -->
 	<section class="blog-area section-gap">
@@ -598,6 +463,15 @@ SYVK &copy;<script>document.write(new Date().getFullYear());</script> All rights
 	<!-- End footer Area -->
 
 
+
+	<script type="module"> 
+		import { renderCards,renderTestimonialCard } from './js/renderCards.js';
+		renderCards("coursesContainer");
+		renderCards("classesContainer");
+		renderTestimonialCard();
+	</script>
+
+	<!-- <script src="js/renderCards.js"></script> -->
 	<script src="js/vendor/jquery-2.2.4.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
 	 crossorigin="anonymous"></script>
