@@ -3168,6 +3168,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 
+
+.logo-header{
+  height: 4.5rem;
+}
+
+.team-sbutton{
+  background-color: #00000000;
+  border: none;
+  color: white;
+  cursor:pointer;
+  font-size: 1rem;
+}
+
+.team-area{
+  background-color:rgb(228, 228, 228)
+}
+
+
+
+
+
 .acc-body{
   display: flex;
   flex-direction: row;
@@ -3196,4 +3217,35 @@ body.mobile-nav-active #mobile-nav-toggle {
   border:0.5px solid rgb(42, 42, 42);
   background-color:rgb(63, 63, 63);
   /* height: 90%; */
+}
+
+
+.modal.in .modal-dialog {
+  margin-top: 10%;
+  border: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.modal-content{
+  border: 1px solid white !important;
+}
+
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+.modal-open, .model, .modal-dialog{
+  overflow-y: hidden !important;
+}
+
+
+.modal-scrollbar-measure {
+  display:hidden;
+  overflow: hidden !important; 
+}
+
+
+.modal-body{
+  overflow-y: hidden!important
 }

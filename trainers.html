@@ -31,13 +31,14 @@
 	<link rel="stylesheet" href="css/jquery-ui.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script type="module" src="js/renderTeam.js"></script>
+	<script type="module" src="js/teamModal.js"></script>
 
 </head>
 
 <body>
 	<!-- start header Area -->
 	<header id="header">
-		<div class="header-top">
+		<!-- <div class="header-top">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 col-sm-6 col-8 header-top-left no-padding">
@@ -56,7 +57,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<div class="container main-menu">
 			<div class="row align-items-center justify-content-between d-flex">
 				<div id="logo">
@@ -192,9 +193,23 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	</footer>
 	<!-- End footer Area -->
 
+
+	<!-- Team Modal -->
+
+	<div class="modal fade" id="teamModal"role="dialog" aria-labelledby="donateModalTitle" aria-hidden="true" data-backdrop="true">
+
+	</div>
+
 	<script type="module"> 
+
+
+
 		import { renderTeam } from './js/renderTeam.js';
+		import { renderTeamModal } from './js/teamModal.js';
+
+
 		renderTeam();
+		renderTeamModal();
 	</script>
 
 
