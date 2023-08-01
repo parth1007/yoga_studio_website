@@ -15,7 +15,7 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>Trainers</title>
+	<title>Courses</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700" rel="stylesheet">
 	<!--
@@ -30,16 +30,12 @@
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/jquery-ui.css">
 	<link rel="stylesheet" href="css/main.css">
-	<script type="module" src="js/renderTeam.js"></script>
-	<script type="module" src="js/teamModal.js"></script>
 
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
-
+    <script type="module" src="js/renderCards.js"></script>
 </head>
 
-<body>
+<body style="background-color:#F3F2FB">
+
 	<!-- start header Area -->
 	<header id="header">
 		<div class="container main-menu">
@@ -51,8 +47,8 @@
 					<ul class="nav-menu">
 						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">Gallery</a></li>
-						<li><a class="active" href="trainers.html">Our Team</a></li>
-						<li><a href="blogs.html">Blogs</a></li>
+						<li><a href="trainers.html">Our Team</a></li>
+						<li><a class="active" href="blogs.html">Blogs</a></li>
 						<li><a href="courses.html">Courses</a></li>
 						<li><a href="contact.html">Contact</a></li>
 						<li>
@@ -68,63 +64,31 @@
 	<!-- end header Area -->
 
 
-	<!-- Start Teachers Area -->
-	<section class="team-area section-gap">
-		<div class="container team-section">
+    	<!-- Start blog Area -->
+	<section class="blog-area section-gap">
+		<div class="container blogs-page">
 			<div class="row d-flex justify-content-center">
 				<div class="col-lg-12">
 					<div class="section-title-wrap text-center">
-						<h1 class="sec-heading">Our Teachers</h1>
+						<h1>Latest Posts & Articles </h1>
 					</div>
 				</div>
 			</div>
-			<div id="teamContainerTeachers" class="team-container">
+
+			<div id="blogContainer" class="blog-container">
 
 			</div>
 		</div>
 	</section>
-	<!-- End team Area -->
 
 
-
-	<!-- Start Teachers Area -->
-	<section class="team-area section-gap">
-		<div class="container team-section">
-			<div class="row d-flex justify-content-center">
-				<div class="col-lg-12">
-					<div class="section-title-wrap text-center">
-						<h1 class="sec-heading">Our Management Team</h1>
-					</div>
-				</div>
-			</div>
-			<div id="teamContainerManagement" class="team-container">
-
-			</div>
-		</div>
-	</section>
-	<!-- End team Area -->
+	<!-- End blog Area -->
 
 
-
-	<!-- Team Modal -->
-
-	<div class="modal fade" id="teamModal"role="dialog" aria-labelledby="donateModalTitle" aria-hidden="true" data-backdrop="true">
-
-	</div>
-
-	<script type="module"> 
-
-
-
-		import { renderTeam } from './js/renderTeam.js';
-		import { renderTeamModal } from './js/teamModal.js';
-
-
-		renderTeam("teamContainerTeachers");
-		renderTeam("teamContainerManagement");
-		renderTeamModal();
+    <script type="module"> 
+		import { renderBlogCard } from './js/renderCards.js';
+		renderBlogCard();
 	</script>
-
 
 	<script src="js/vendor/jquery-2.2.4.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"

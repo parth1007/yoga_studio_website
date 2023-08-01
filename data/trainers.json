@@ -1,52 +1,44 @@
 [
     {
         "name": "Abhishek 1",
-        "img" : "../img/t4.jpg",
-        "desc" : "Yoga teacher"
+        "img" : "../img/team.jpg",
+        "desc" : "Yoga teacher",
+        "about": "I have completed my Bachelor degree (B.A.) from Bangalore University, also completed Certificate Course in Yoga Studies degree (CYS) from Karnataka University, and felicitated with honarary doctrate from virtual University Chennai. I used to face so many problems from my chilhood, after yoga practice day by day all the problems went away from my life. From then on I got motivated to do yoga, so I became a yoga practitioner to teach life skills to others."
     },
     {
         "name": "Abhishek 2",
-        "img" : "../img/t4.jpg",
-        "desc" : "Yoga teacher"
+        "img" : "../img/team.jpg",
+        "desc" : "Yoga teacher",
+        "about": "I have completed my Bachelor degree (B.A.) from Bangalore University, also completed Certificate Course in Yoga Studies degree (CYS) from Karnataka University, and felicitated with honarary doctrate from virtual University Chennai. I used to face so many problems from my chilhood, after yoga practice day by day all the problems went away from my life. From then on I got motivated to do yoga, so I became a yoga practitioner to teach life skills to others."
     },
     {
         "name": "Abhishek 4",
-        "img" : "../img/t4.jpg",
-        "desc" : "Yoga teacher"
+        "img" : "../img/team.jpg",
+        "desc" : "Yoga teacher",
+        "about": "I have completed my Bachelor degree (B.A.) from Bangalore University, also completed Certificate Course in Yoga Studies degree (CYS) from Karnataka University, and felicitated with honarary doctrate from virtual University Chennai. I used to face so many problems from my chilhood, after yoga practice day by day all the problems went away from my life. From then on I got motivated to do yoga, so I became a yoga practitioner to teach life skills to others."
     },
     {
         "name": "Abhishek 4",
-        "img" : "../img/t4.jpg",
-        "desc" : "Yoga teacher"
+        "img" : "../img/team.jpg",
+        "desc" : "Yoga teacher",
+        "about": "I have completed my Bachelor degree (B.A.) from Bangalore University, also completed Certificate Course in Yoga Studies degree (CYS) from Karnataka University, and felicitated with honarary doctrate from virtual University Chennai. I used to face so many problems from my chilhood, after yoga practice day by day all the problems went away from my life. From then on I got motivated to do yoga, so I became a yoga practitioner to teach life skills to others."
     },
     {
         "name": "Abhishek 5",
-        "img" : "../img/t4.jpg",
-        "desc" : "Yoga teacher"
+        "img" : "../img/team.jpg",
+        "desc" : "Yoga teacher",
+        "about": "I have completed my Bachelor degree (B.A.) from Bangalore University, also completed Certificate Course in Yoga Studies degree (CYS) from Karnataka University, and felicitated with honarary doctrate from virtual University Chennai. I used to face so many problems from my chilhood, after yoga practice day by day all the problems went away from my life. From then on I got motivated to do yoga, so I became a yoga practitioner to teach life skills to others."
     },
     {
         "name": "Abhishek 6",
-        "img" : "../img/t4.jpg",
-        "desc" : "Yoga teacher"
+        "img" : "../img/team.jpg",
+        "desc" : "Yoga teacher",
+        "about": "I have completed my Bachelor degree (B.A.) from Bangalore University, also completed Certificate Course in Yoga Studies degree (CYS) from Karnataka University, and felicitated with honarary doctrate from virtual University Chennai. I used to face so many problems from my chilhood, after yoga practice day by day all the problems went away from my life. From then on I got motivated to do yoga, so I became a yoga practitioner to teach life skills to others."
     },
     {
-        "name": "Abhishek 7",
-        "img" : "../img/t4.jpg",
-        "desc" : "Yoga teacher"
-    },
-    {
-        "name": "Abhishek 8",
-        "img" : "../img/t4.jpg",
-        "desc" : "Yoga teacher"
-    },
-    {
-        "name": "Abhishek 9",
-        "img" : "../img/t4.jpg",
-        "desc" : "Yoga teacher"
-    },
-    {
-        "name": "Abhishek 10",
-        "img" : "../img/t4.jpg",
-        "desc" : "Yoga teacher"
+        "name": "Abhishek 6",
+        "img" : "../img/team.jpg",
+        "desc" : "Yoga teacher",
+        "about": "I have completed my Bachelor degree (B.A.) from Bangalore University, also completed Certificate Course in Yoga Studies degree (CYS) from Karnataka University, and felicitated with honarary doctrate from virtual University Chennai. I used to face so many problems from my chilhood, after yoga practice day by day all the problems went away from my life. From then on I got motivated to do yoga, so I became a yoga practitioner to teach life skills to others."
     }
 ]

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "The Journey",
+        "img" : "../img/blog/post-img2.jpg",
+        "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Iure magnam facere nihil velit? Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "author" : "SYK Admin"
+    },
+    {
+        "name": "Pearl ⚪ and the Star⭐",
+        "img" : "../img/blog/post-img2.jpg",
+        "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Iure magnam facere nihil velit? Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "author" : "SYK Admin"
+    },
+    {
+        "name": "The Journey",
+        "img" : "../img/blog/post-img2.jpg",
+        "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Iure magnam facere nihil velit? Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "author" : "SYK Admin"
+    },
+    {
+        "name": "The Journey",
+        "img" : "../img/blog/post-img2.jpg",
+        "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Iure magnam facere nihil velit? Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "author" : "SYK Admin"
+    },
+    {
+        "name": "The Journey",
+        "img" : "../img/blog/post-img2.jpg",
+        "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Iure magnam facere nihil velit? Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "author" : "SYK Admin"
+    },
+    {
+        "name": "The Journey",
+        "img" : "../img/blog/post-img2.jpg",
+        "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Iure magnam facere nihil velit? Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "author" : "SYK Admin"
+    }
+]

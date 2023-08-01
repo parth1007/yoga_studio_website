@@ -1,5 +1,6 @@
 import classesData from '../data/classes.json' assert { type: "json" };
 import courseData from '../data/courses.json' assert { type: "json" };
+import blogData from '../data/blogs.json' assert { type: "json" };
 import testimonialData from '../data/testimonials.json' assert { type: "json" };
 
 
@@ -85,5 +86,31 @@ export function renderTestimonialCard() {
     container.appendChild(containerDiv);
 
   }
+}
+
+
+
+export function renderBlogCard() {
+  var container = document.getElementById("blogContainer");
+
+  var htmlContent = ""
+  
+
+  for (var i = 0; i < blogData.length; i++) {
+    var card = `
+        <div class="blog-card">
+          <img src=${blogData[i].img} class="blog-img">
+          <div class="blog-details">
+            <h4 style="font-weight:600">${blogData[i].name}</h4>
+            <p>${blogData[i].desc}</p>
+            <h6><b>BY - ${blogData[i].author}</b></h6>
+          </div>
+        </div>
+      `;
+    
+      htmlContent += card;
+
+  }
+  container.innerHTML = htmlContent;
 }
 
