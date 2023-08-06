@@ -3340,12 +3340,6 @@ body::-webkit-scrollbar {
 .blogs-page{
   min-width:90vw;
 }
-/* @media (max-width: 992px){
-  .blogs-page{min-width:1300px;}
-}
-@media (max-width: 992px){
-  .blogs-page{min-width:1300px;}
-} */
 
 
 
@@ -3358,12 +3352,12 @@ body::-webkit-scrollbar {
 
 .blog-card{
   width:45%;
-  height:22rem;
+  height:15rem;
   display:flex;
   flex-direction:row;
   justify-content:space-around;
-  margin:2rem;
-  padding:1.5rem;
+  margin:1.5rem;
+  padding:1rem;
   background-color: #ffffff;
   border-radius: 1.2rem;
   box-shadow: 0px 0px 18px -3px rgba(0,0,0,0.15);
@@ -3383,6 +3377,7 @@ body::-webkit-scrollbar {
 }
 
 .blog-details h4{
+  margin-top:0.5rem;
   height:20%;
 }
 .blog-details p{
