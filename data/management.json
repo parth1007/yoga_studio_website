@@ -1,32 +1,32 @@
 [
     {
         "name": "Abhishek 1",
-        "img" : "../img/team.jpg",
+        "img" : "./img/team.jpg",
         "desc" : "Yoga teacher"
     },
     {
         "name": "Abhishek 2",
-        "img" : "../img/team.jpg",
+        "img" : "./img/team.jpg",
         "desc" : "Yoga teacher"
     },
     {
         "name": "Abhishek 4",
-        "img" : "../img/team.jpg",
+        "img" : "./img/team.jpg",
         "desc" : "Yoga teacher"
     },
     {
         "name": "Abhishek 4",
-        "img" : "../img/team.jpg",
+        "img" : "./img/team.jpg",
         "desc" : "Yoga teacher"
     },
     {
         "name": "Abhishek 5",
-        "img" : "../img/team.jpg",
+        "img" : "./img/team.jpg",
         "desc" : "Yoga teacher"
     },
     {
         "name": "Abhishek 6",
-        "img" : "../img/team.jpg",
+        "img" : "./img/team.jpg",
         "desc" : "Yoga teacher"
     }
 ]
