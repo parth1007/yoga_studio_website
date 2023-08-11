@@ -45,7 +45,7 @@ export function renderFolderModals() {
                         </button>
                     </div>
                     <div class="modal-body acc-body member-modal gallery-modal">
-                            ${renderImages(galleryData[i].images)}
+                            ${renderImages(galleryData[i].images,i)}
                     </div>
                 </div>
             </div>
@@ -58,13 +58,13 @@ export function renderFolderModals() {
 
 
 
-export function renderImages(images) {
+export function renderImages(images,j) {
 
     var htmlContent = "";
     for (var i = 0; i < images.length; i++) {
         var html = `
             <div class=" folder-item ">
-                <a href=${images[i]} data-fancybox="gallery">
+                <a href=${images[i]} data-fancybox="gallery-${j}">
                     <img src=${images[i]} />
                 </a>
             </div>
