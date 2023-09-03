@@ -98,11 +98,11 @@ export function renderBlogCard() {
 
   for (var i = 0; i < blogData.length; i++) {
     var card = `
-        <div class="blog-card">
+        
+        <div class="blog-card" onclick="window.open('${blogData[i].link}', '_blank') ">
           <img src=${blogData[i].img} class="blog-img">
           <div class="blog-details">
             <h4 style="font-weight:600">${blogData[i].name}</h4>
-            <p>${blogData[i].desc}</p>
             <h6><b>BY - ${blogData[i].author}</b></h6>
           </div>
         </div>

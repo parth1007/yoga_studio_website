@@ -21,10 +21,12 @@ export function renderTeamModal() {
                                 <img src=${trainerData[i].img} class="member-modal-img">
                             </div>
                             <div class="member-modal-details">
-                                ${trainerData[i].about}
-                                <br> 
-                                ${trainerData[i].about}
-
+                                <h1 class="member-modal-quote">
+                                    "${trainerData[i].quote}"
+                                </h1>
+                                <div class="member-modal-about">
+                                    ${trainerData[i].about}
+                                </div>
                             </div>
                         </div>
                     </div>

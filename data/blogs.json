@@ -1,38 +1,51 @@
 [
     {
-        "name": "The Journey",
+        "name": "Sleep quality and yoga",
         "img" : "./img/blog/post-img2.jpg",
-        "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Iure magnam facere nihil velit? Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        "author" : "SYK Admin"
+        "desc" : "",
+        "author" : "Manjunath",
+        "link": "https://medium.com/@shreeyogavijnana/sleep-quality-and-yoga-1449866369d9"
     },
     {
-        "name": "Pearl ⚪ and the Star⭐",
+        "name": "Yoga with chartered account Lens",
         "img" : "./img/blog/post-img2.jpg",
-        "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Iure magnam facere nihil velit? Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        "author" : "SYK Admin"
+        "desc" : "",
+        "author" : "",
+        "link": "https://medium.com/@shreeyogavijnana/yic-yoga-instructors-course-a-life-changer-8fe3ff29c3fd "
     },
     {
-        "name": "The Journey",
+        "name": "How Yoga Engineered me.",
         "img" : "./img/blog/post-img2.jpg",
-        "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Iure magnam facere nihil velit? Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        "author" : "SYK Admin"
+        "desc" : "",
+        "author" : "",
+        "link": "https://medium.com/@shreeyogavijnana/yoga-from-an-engineers-perspective-1fce697f07d0 "
     },
     {
-        "name": "The Journey",
+        "name": "How yogasana practice changed a child's life.",
         "img" : "./img/blog/post-img2.jpg",
-        "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Iure magnam facere nihil velit? Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        "author" : "SYK Admin"
+        "desc" : "",
+        "author" : "",
+        "link": "https://medium.com/@shreeyogavijnana/i-started-yoga-4-years-ago-when-i-was-10-years-old-8ded1f53e0d8 "
     },
     {
-        "name": "The Journey",
+        "name": "Meditation in a nutshell beautiful compilation",
         "img" : "./img/blog/post-img2.jpg",
-        "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Iure magnam facere nihil velit? Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        "author" : "SYK Admin"
+        "desc" : "",
+        "author" : "Ashwini",
+        "link": "https://medium.com/@shreeyogavijnana/meditation-eaaff066639a"
     },
     {
-        "name": "The Journey",
+        "name": "Continuation of kriyas ",
         "img" : "./img/blog/post-img2.jpg",
-        "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore aliquam! Iure magnam facere nihil velit? Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        "author" : "SYK Admin"
+        "desc" : "",
+        "author" : "Jayashree",
+        "link": "https://medium.com/@shreeyogavijnana/weekend-classes-for-kriya-and-relaxation-83defd72697a "
+    },
+    {
+        "name": "Wonderful yoga quotes related to personal learning",
+        "img" : "./img/blog/post-img2.jpg",
+        "desc" : "",
+        "author" : "Venkat",
+        "link": "https://medium.com/@shreeyogavijnana/echoing-thoughts-through-yoga-quotes-173aff5b8697"
     }
 ]
