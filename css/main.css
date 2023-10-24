@@ -1665,7 +1665,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997; }
 
-#header.header-scrolled {
+/* #header.header-scrolled {
   transition: all 0.5s;
   background-color: rgb(7, 14, 42); }
   #header.header-scrolled a {
@@ -1673,7 +1673,20 @@ h1, h2, h3, h4, h5, h6 {
   #header.header-scrolled .main-menu {
     border-color: transparent; }
     #header.header-scrolled .main-menu .nav-menu ul {
-      background-color: rgb(7, 14, 42); }
+      background-color: rgb(7, 14, 42); } */
+
+
+#header.header-scrolled {
+  transition: all 0.5s;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(60, 60, 60, 0.2) 0px 7px 15px 0px;
+}
+  #header.header-scrolled a {
+    color: #000000; }
+  #header.header-scrolled .main-menu {
+    border-color: transparent; }
+    #header.header-scrolled .main-menu .nav-menu ul {
+      background-color: rgb(255, 255, 255); }
 
 @media (max-width: 673px) {
   #logo {
@@ -1762,8 +1775,8 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   display: inline-block;
   color: #222222;
-  font-weight: 500;
-  font-size: 12px;
+  font-weight: 550;
+  font-size: 0.9rem;
   text-transform: uppercase;
   outline: none;
   -webkit-transition: all 0.3s ease 0s;
@@ -3170,6 +3183,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 13px !important;
     color: #fff; }
 
+
 /*# sourceMappingURL=main.css.map */
 
 
@@ -3188,10 +3202,31 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
+body{
+  background: #ffffff;
+}
 
 
+.team-area.section-gap{
+  background: #ffffff;
+}
 
+#logo a{
+  display:flex;
+  flex-direction: row;
+}
+.logo-text{
+  margin-left:0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
 
+}
+
+.logo-text-h{
+  font-size: 1.7rem;
+  font-weight:600;
+}
 
 
 .logo-header{
@@ -3209,9 +3244,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .team-area{
   background-color:rgb(228, 228, 228)
 }
-
-
-
 
 
 .acc-body{
@@ -3295,6 +3327,8 @@ body::-webkit-scrollbar {
 .team-section{
   max-width:1300px;
 }
+
+
 
 
 
@@ -3445,6 +3479,8 @@ body::-webkit-scrollbar {
   flex-direction:row;
   align-items:space-between;
   justify-content: space-evenly;
+  width: 120%;
+  transform:translateX(-10%);
 }
 .center-card{
   width:25%;
@@ -3455,6 +3491,7 @@ body::-webkit-scrollbar {
   justify-content: center;
   border: 1px solid black;
   padding:1rem;
+  margin: 0 1rem;
 }
 
 .center-card h4, h5{
