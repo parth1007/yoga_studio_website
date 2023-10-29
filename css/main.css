@@ -2051,6 +2051,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- End Banner Area ------------*/
 /*-------- Start About Us Area ------------*/
+.about-area
+{padding-top:5px;}
+
 @media (max-width: 991px) {
   .about-area .about-left {
     text-align: center;
@@ -2122,8 +2125,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*--------- end feature area  -------------*/
 .schedule-area {
-  background: #f9f9ff;
-  position: relative; }
+  background: #ffffff;
+  position: relative;
+padding-top:10px; }
   .schedule-area .table-wrap {
     position: relative;
     z-index: 10; }
@@ -2147,7 +2151,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       .schedule-area .table tr .name {
         font-weight: 400; }
       .schedule-area .table tr:hover {
-        background-color: #2c79ffd7;
+        background-color: #c6c6c6;
         color: #ffffff;
         box-shadow: 0px 20px 50px rgba(153, 153, 153, 0.2); }
         .schedule-area .table tr:hover td,
@@ -2161,8 +2165,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   .schedule-area .thead-light .head {
     text-transform: uppercase;
     font-weight: 700;
-    color: #222222 !important;
+    color: #ffffff !important;
     padding: 15px 0;
+    background-color:#0093df ;
     /* padding-left: 50px;  */
   }
   .schedule-area .featured-img {
@@ -2219,6 +2224,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 30px;
   text-align: center;
   background: #f9f9ff;
+  
   /* height: 35rem; */
   display: flex;
   flex-direction: column;
@@ -3029,7 +3035,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*  Contact Page Styles
 /* =================================== */
 .contact-page-area {
-  background: #f9f9ff; }
+  background: #ffffff; }
   .contact-page-area .map-wrap {
     margin-bottom: 120px; }
     @media (max-width: 991px) {
@@ -3187,6 +3193,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*# sourceMappingURL=main.css.map */
 
 
+
+
+/* Courses  */
+
+.course-card-img{
+  width:100%;
+  aspect-ratio:3/2;
+  object-fit:cover;
+}
+
+
+
+
+
 .sec-heading{
   font-family: 'Work Sans', sans-serif !important; 
   font-weight:500 !important; 
@@ -3194,13 +3214,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about-us-text{
-  font-size:0.85rem; 
+  font-size:1.2rem; 
   color:#3A3E41;
+  font-weight:400;
   text-align: justify;
 	text-justify: inter-word; 
-	font-family: 'Work Sans', sans-serif;
+	/* font-family: 'Work Sans', sans-serif; */
 }
+.about-img{
 
+}
 
 body{
   background: #ffffff;
@@ -3319,13 +3342,17 @@ body::-webkit-scrollbar {
   width: 11rem;
   padding-bottom:0.7rem;
   }
-.img-fluid-team{
+.img-team{
+  width:100%;
   aspect-ratio:1/1;
   object-fit: cover;
 }
 
 .team-section{
   max-width:1300px;
+}
+.trainer-intro{
+  min-height:4rem;
 }
 
 
@@ -3489,10 +3516,17 @@ body::-webkit-scrollbar {
   flex-direction:column;
   align-items:flex-start;
   justify-content: center;
-  border: 1px solid black;
+  /* border: 1px solid #0000002e; */
+  border-radius:0.8rem;
   padding:1rem;
   margin: 0 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
+.center-card:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 
 .center-card h4, h5{
   font-weight:600 !important;
@@ -3502,3 +3536,13 @@ body::-webkit-scrollbar {
   font-size:0.8rem;
   margin:0.3rem;
 }
+
+
+
+
+
+
+
+/* DONATE */
+
+

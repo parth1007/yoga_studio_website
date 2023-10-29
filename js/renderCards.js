@@ -19,14 +19,13 @@ export function renderCards(container) {
         var card = `
           <div class="col-lg-4 col-md-4 single-feature" data-toggle="modal" data-target="#courseModal-${i}">
             <figure>
-              <img class="img-fluid" src="${data[i].img}" alt="">
+              <img class="img-fluid course-card-img" src="${data[i].img}" alt="">
               <div class="overlay overlay-bg"></div>
             </figure>
             <div class="text-center">
               <h4 class="mb-10">${data[i].title}</h4>
               <p1>${data[i].p1}</p1><br>
               <p2>${data[i].p2}</p2><br>
-              <p3>${data[i].p3}</p3>
             </div>
           </div>
         `;
@@ -44,7 +43,7 @@ export function renderTestimonialCard() {
   for (var i = 0; i < testimonialData.length; i++) {
     var card = `
         <div class="single-testimonial item">
-            <p>${testimonialData[i].feedback}<p>
+            <div class="feedback-text">${testimonialData[i].feedback}<div>
             <h4 class="desc">${testimonialData[i].person}</h4>
         </div>
       `;

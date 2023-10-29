@@ -7,13 +7,13 @@
     font-family: 'Quicksand', sans-serif;
 } */
 
-a:hover,
+/* a:hover,
 a:active,
 a:focus {
     color: #0093df;
     outline: none;
     text-decoration: none;
-}
+} */
 .nav-link{
     color: #000000;
 }
@@ -137,6 +137,9 @@ a:focus {
 /*********** Nav Bar CSS **********/
 /**********************************/
 
+.logo-text{
+    color:black;
+}
 
 
 /*******************************/
@@ -148,10 +151,15 @@ a:focus {
     min-height: 300px;
     background: #ffffff;
     margin-bottom: 45px;
+    display:flex;
+    justify-content:center;
+        margin-top: 8rem;
 }
 
 .carousel .container-fluid {
     padding: 0;
+    width: 70%;
+    height:45rem;
 }
 
 .carousel .carousel-item {
@@ -167,7 +175,9 @@ a:focus {
 .carousel .carousel-img {
     position: relative;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+    aspect-ratio:2/1;
+    object-fit:cover;
     min-height: 300px;
     text-align: right;
     overflow: hidden;
@@ -393,7 +403,7 @@ a:focus {
 
 .about .about-img {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
 }
 
 .about .about-tab {

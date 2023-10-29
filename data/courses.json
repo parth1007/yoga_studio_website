@@ -3,28 +3,24 @@
     "img":"./img/featured-class/YIC.jpg",
     "title": "300 hours - Yoga Instructor Course (YIC)", 
     "p1": "Yoga Instructor Course (YIC)",
-    "p2": "in Affiliation with VYASA",
-    "p3": ""
+    "p2": "in Affiliation with VYASA"
 },
 { 
     "img":"./img/featured-class/YTC.jpeg",
     "title": "300 hours - Yoga Teacher Training Course", 
     "p1": "Yoga Teachers Training Course (YTTC)",
-    "p2": "",
-    "p3": ""
+    "p2": ""
 },
 { 
     "img":"./img/featured-class/AYTC.png",
     "title": "Advanced Yoga Training Course (AYTC)", 
     "p1": "Every Sunday",
-    "p2": "6:00am - 7:30am",
-    "p3": "Jan - Dec"
+    "p2": "6:00am - 7:30am"
 },
 { 
     "img":"./img/featured-class/Shri Kalpa Yoga.png",
     "title": "Shree Kalpa Yoga", 
     "p1": "Every Saturday",
-    "p2": "6:00am - 7:30am",
-    "p3": "Six Semesters Course"
+    "p2": "6:00am - 7:30am"
 }
 ]
