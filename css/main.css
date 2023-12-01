@@ -3276,6 +3276,7 @@ padding-top:4rem; }
   font-weight:400;
   text-align: justify;
 	text-justify: inter-word; 
+  letter-spacing:1.5px;
 	/* font-family: 'Work Sans', sans-serif; */
 }
 
@@ -3576,6 +3577,7 @@ body::-webkit-scrollbar {
   padding:1rem;
   margin: 0 1rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #0095df6c;
 }
 
 .center-card:hover{
