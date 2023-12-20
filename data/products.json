@@ -1,0 +1,97 @@
+{
+    "books":[
+        { 
+            "name":"The Alchemist",
+            "publication": "Paulo Coelho", 
+            "price": "200"
+        },
+        { 
+            "name":"The Alchemist",
+            "publication": "Paulo Coelho", 
+            "price": "200"
+        },
+        { 
+            "name":"The Alchemist",
+            "publication": "Paulo Coelho", 
+            "price": "200"
+        },
+        { 
+            "name":"The Alchemist",
+            "publication": "Paulo Coelho", 
+            "price": "200"
+        },
+        { 
+            "name":"The Alchemist",
+            "publication": "Paulo Coelho", 
+            "price": "200"
+        },
+        { 
+            "name":"The Alchemist",
+            "publication": "Paulo Coelho", 
+            "price": "200"
+        }
+    ],
+    "clothing":[
+        { 
+            "name":"The Alchemist",
+            "img": "/img/blog/yoga_inspire.jpg", 
+            "price": "200"
+        },
+        { 
+            "name":"The Alchemist",
+            "img": "/img/blog/yoga_inspire.jpg", 
+            "price": "200"
+        },
+        { 
+            "name":"The Alchemist",
+            "img": "/img/blog/yoga_inspire.jpg", 
+            "price": "200"
+        },
+        { 
+            "name":"The Alchemist",
+            "img": "/img/blog/yoga_inspire.jpg", 
+            "price": "200"
+        },
+        { 
+            "name":"The Alchemist",
+            "img": "/img/blog/yoga_inspire.jpg", 
+            "price": "200"
+        }
+    ],
+    "miscellaneous":[
+        { 
+            "name":"The other thing",
+            "img": "/img/blog/yoga_inspire.jpg", 
+            "price": "200"
+        },
+        { 
+            "name":"The other thing",
+            "img": "/img/blog/yoga_inspire.jpg", 
+            "price": "200"
+        },
+        { 
+            "name":"The other thing",
+            "img": "/img/blog/yoga_inspire.jpg", 
+            "price": "200"
+        }
+    ],
+    "mats":[
+        { 
+            "name":"The Mat",
+            "img": "/img/blog/yoga_inspire.jpg", 
+            "price": "200"
+        },
+        { 
+            "name":"The Mat",
+            "img": "/img/blog/yoga_inspire.jpg", 
+            "price": "200"
+        },
+        { 
+            "name":"The Mat",
+            "img": "/img/blog/yoga_inspire.jpg", 
+            "price": "200"
+        }
+    ]
+
+}
+    
