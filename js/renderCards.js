@@ -17,16 +17,18 @@ export function renderCards(container) {
 
     for (var i = 0; i < data.length; i++) {
         var card = `
-          <div class="col-lg-4 col-md-4 single-feature" data-toggle="modal" data-target="#courseModal-${i}">
-            <figure>
-              <img class="img-fluid course-card-img" src="${data[i].img}" alt="">
-              <div class="overlay overlay-bg"></div>
-            </figure>
-            <div class="text-center">
-              <h4 class="mb-10">${data[i].title}</h4>
-              <p1>${data[i].p1}</p1><br>
-              <p2>${data[i].p2}</p2><br>
-            </div>
+          <div class="col-lg-4 col-md-4 single-feature">
+            <a href=${data[i].link} target="_blank">
+                <figure>
+                  <img class="img-fluid course-card-img" src="${data[i].img}" alt="">
+                  <div class="overlay overlay-bg"></div>
+                </figure>
+                <div class="text-center">
+                  <h4 class="mb-10">${data[i].title}</h4>
+                  <p1>${data[i].p1}</p1><br>
+                  <p2>${data[i].p2}</p2><br>
+                </div>
+            </a>
           </div>
         `;
 

@@ -20,7 +20,7 @@ a:focus {
 .btn.btn-custom {
     padding: 12px 20px;
     text-align: center; 
-   font-size: 16px;
+    font-size: 16px;
     font-weight: 500;
     color: #777777;
     border-radius: 0;
@@ -433,9 +433,9 @@ a:focus {
     background: transparent;
 }
 
-.about .about-tab .tab-content .container {
+/* .about .about-tab .tab-content .container {
     padding: 0;
-}
+} */
 
 @media (max-width: 991.98px) {
     .about .section-header {
@@ -458,14 +458,14 @@ a:focus {
 .donate .donate-content {
     padding: 45px 0 15px 0;
 }
-
+/* 
 .container .donate {
     margin: 90px 0;
 }
 
 .container .donate .donate-content {
     padding: 45px 30px 15px 30px;
-}
+} */
 
 .donate .donate-content .section-header {
     margin-bottom: 30px;
@@ -628,14 +628,14 @@ a:focus {
 .volunteer .volunteer-content {
     padding: 30px 0 45px 0;
 }
-
+/* 
 .container .volunteer {
     margin: 90px 0;
 }
 
 .container .volunteer .volunteer-content {
     padding: 45px 30px 15px 30px;
-}
+} */
 
 .volunteer .volunteer-content .section-header {
     margin-bottom: 30px;

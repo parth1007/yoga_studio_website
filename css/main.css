@@ -3283,6 +3283,7 @@ padding-top:4rem; }
 
 body{
   background: #ffffff;
+  width: fit-content;
 }
 
 
@@ -3628,6 +3629,7 @@ body::-webkit-scrollbar {
   display:flex;
   align-items:center;
   justify-content:center;
+  cursor: pointer;
 }
 
 .active-category {
@@ -3694,7 +3696,7 @@ body::-webkit-scrollbar {
 .books-header {
   display: flex;
   align-items: center;
-  color: var(--colorGrey);
+  color: #787878;
   padding: 1rem 0;
   box-sizing: border-box;
   user-select: none;
@@ -3807,4 +3809,14 @@ ul.books-items li.book-item {
   font-weight: 500;
   padding-bottom:5%;
 
+}
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+  
 }
