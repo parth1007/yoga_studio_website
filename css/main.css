@@ -107,6 +107,7 @@ figure {
   margin: 0; }
 
 a {
+  text-decoration: none;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1713,8 +1714,9 @@ h1, h2, h3, h4, h5, h6 {
   #header #logo h1 {
     font-size: 28px; }
 
-  #header #logo img {
-    max-height: 40px; } }
+  /* #header #logo img {
+    max-height: 40px; }  */
+  }
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -1775,7 +1777,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   display: inline-block;
   color: #222222;
-  font-weight: 550;
+  font-weight: 600;
   font-size: 0.9rem;
   text-transform: uppercase;
   outline: none;
@@ -1819,9 +1821,9 @@ h1, h2, h3, h4, h5, h6 {
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
   position: fixed;
-  right: 15px;
+  right: 3rem;
   z-index: 999;
-  top: 26px;
+  top: 2rem;
   border: 0;
   background: none;
   font-size: 24px;
@@ -1847,7 +1849,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(0, 0, 0, 0.8);
+  background: #007ec0;
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -1863,16 +1865,16 @@ h1, h2, h3, h4, h5, h6 {
 
 #mobile-nav ul li a {
   color: #fff;
-  font-size: 13px;
+  font-size: 1rem;
   text-transform: uppercase;
   overflow: hidden;
-  padding: 10px 22px 10px 15px;
+  padding: 25px 22px 10px 15px;
   position: relative;
   text-decoration: none;
   width: 100%;
   display: block;
   outline: none;
-  font-weight: 400; }
+  font-weight: 450; }
 
 #mobile-nav ul li a:hover {
   color: #fff; }
@@ -1915,7 +1917,8 @@ body.mobile-nav-active #mobile-nav {
   left: 0; }
 
 body.mobile-nav-active #mobile-nav-toggle {
-  color: #fff; }
+  color: #fff; 
+}
 
 /* =================================== */
 /*  Homepage Styles
@@ -3156,6 +3159,12 @@ padding-top:4rem; }
       color: #0093df;
       margin-right: 30px; }
 
+.contact-map{
+  width:50%;
+  height:22rem;
+}
+
+
 /* =================================== */
 /*  Footer Styles
 /* =================================== */
@@ -3283,7 +3292,7 @@ padding-top:4rem; }
 
 body{
   background: #ffffff;
-  width: fit-content;
+  width: 100vw;
 }
 
 
@@ -3499,6 +3508,7 @@ body::-webkit-scrollbar {
 
 .blog-card{
   width:30%;
+  min-width:20rem;
   height:30rem;
   display:flex;
   flex-direction:column;
@@ -3563,20 +3573,21 @@ body::-webkit-scrollbar {
   flex-direction:row;
   align-items:space-between;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 120%;
   transform:translateX(-10%);
 }
 .center-card{
-  width:25%;
-
+  width:22%;
   display:flex;
   flex-direction:column;
   align-items:flex-start;
   justify-content: center;
-  /* border: 1px solid #0000002e; */
+  min-width:17rem;
   border-radius:0.8rem;
   padding:1rem;
   margin: 0 1rem;
+  margin-bottom: 1rem;;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   background-color: #0095df6c;
 }
@@ -3690,7 +3701,7 @@ body::-webkit-scrollbar {
 .container {
   margin: 0 auto;
   /* margin-top: 50px; */
-  width: var(--layoutWidth);
+  /* width: var(--layoutWidth); */
 }
 
 .books-header {
@@ -3812,11 +3823,157 @@ ul.books-items li.book-item {
 }
 
 
+/* ----------- NAVBAR -------------- */
+
+.navbar-inner-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.collapse-navbar{
+  background:blue;
+}
+.mobile-nav{
+  display: none;
+}
+.nav-menu li {
+  font-weight: 500;
+}
+.ham-btn{
+  border: 1px solid black;
+}
+
+/* MEDIA QUERIES */
 
 
+
+
+
+
+@media (max-width: 1000px) {
+
+  .desktop-nav{
+    display: none;
+  }
+  .mobile-nav{
+    display:block;
+  }
+  .ham-menu-button{
+    display:block;
+    margin-right: 10%;
+  }
+  .section-gap {
+    padding: 10rem 0px;
+  }
+  .center-card{
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .centers-container{
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact-row{
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+  }
+  .contact-map{
+    width:75%;
+    height:22rem;
+  }
+  .address-box{
+    margin-bottom:3rem;
+    height:auto;
+    padding-left: 0rem;
+  }
+}
 
 
 
 @media (max-width: 500px) {
   
+  #mobile-nav-toggle{
+    right:1.5rem;
+  }
+  #logo{
+    margin-left:10px
+  }
+  #header #logo img {
+    max-height: 3rem; 
+  }  
+  .logo-text-h{
+    font-size: 1.4rem;
+  }
+
+  .ham-btn{
+    margin-right: 1rem;
+  }
+
+
+  .single-feature{
+    width:85%;
+  }
+
+  .feature-area .single-feature h4{
+    font-size:2.1rem;
+  }
+
+  .feature-area .single-feature p1{
+    font-size:1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .feature-area .single-feature p2{
+    font-size:1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  #coursesContainer{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items:center;
+  }
+  #testimonialContainer{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items:center;
+  }
+
+  .schedule-cont{
+    overflow: hidden;
+  }
+  .schedule-table{
+    overflow-x: scroll;
+    min-width: 90rem;
+  }
+
+  .address-box{
+    width:90%;
+  }
+  .address-box h2{
+    display: none;
+  }
+
+  .contact-map{
+    width:90%;
+    height:22rem;
+  }
+  .sec-heading{
+    font-weight: 500;
+  }
+  
+
 }
+
+
