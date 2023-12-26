@@ -3972,6 +3972,17 @@ ul.books-items li.book-item {
   .sec-heading{
     font-weight: 500;
   }
+
+  .category-name{
+    font-size: 1rem;
+  }
+
+  .contact .contact-form{
+    max-width:425px;
+  }
+
+
+
   
 
 }
