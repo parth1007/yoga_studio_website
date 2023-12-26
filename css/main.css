@@ -3290,6 +3290,7 @@ padding-top:4rem; }
 }
 
 
+
 body{
   background: #ffffff;
   width: 100vw;
@@ -3851,7 +3852,7 @@ ul.books-items li.book-item {
   border: 1px solid black;
 }
 
-/* MEDIA QUERIES */
+/* ----------------- MEDIA QUERIES --------------- */
 
 
 
@@ -3860,12 +3861,6 @@ ul.books-items li.book-item {
 
 @media (max-width: 1000px) {
 
-  .desktop-nav{
-    display: none;
-  }
-  .mobile-nav{
-    display:block;
-  }
   .ham-menu-button{
     display:block;
     margin-right: 10%;
@@ -3884,6 +3879,11 @@ ul.books-items li.book-item {
     justify-content:center;
     align-items:center;
   }
+
+  .about-us-text{
+    font-size: 3vw;
+    letter-spacing: 0.5px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -3901,11 +3901,27 @@ ul.books-items li.book-item {
     height:auto;
     padding-left: 0rem;
   }
+
+  .table-container{
+    width: 90%;
+    overflow: scroll;
+    padding: 0;
+    border-radius: 0;
+  }
+  .schedule-table{
+      min-width: 45rem;
+      border: 0;
+  }
+  .schedule-area .table{
+    border-radius: 0;
+  }
 }
 
 
 
 @media (max-width: 500px) {
+
+  /* Navbar */
   
   #mobile-nav-toggle{
     right:1.5rem;
@@ -3924,23 +3940,33 @@ ul.books-items li.book-item {
     margin-right: 1rem;
   }
 
+  /* Home */
+
+  .about-us-text{
+    font-size: 3.5vw;
+    letter-spacing: 0.5px;
+  }
+
+  .about-us{
+    padding: 0 3rem;
+  }
+  .single-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .section-gap{
+    padding: 8rem 0;
+  }
+
+  .single-testimonial{
+    width:80%;
+    margin-left:10%;
+  }
 
   .single-feature{
     width:85%;
-  }
-
-  .feature-area .single-feature h4{
-    font-size:2.1rem;
-  }
-
-  .feature-area .single-feature p1{
-    font-size:1.4rem;
-    margin-bottom: 1rem;
-  }
-
-  .feature-area .single-feature p2{
-    font-size:1.4rem;
-    margin-bottom: 1rem;
   }
 
   #coursesContainer{
@@ -3949,20 +3975,25 @@ ul.books-items li.book-item {
     justify-content: center;
     align-items:center;
   }
-  #testimonialContainer{
-    display: flex;
-    flex-direction: column !important;
-    justify-content: center;
-    align-items:center;
+
+
+  .feature-area .single-feature h4{
+    font-size:1.5rem;
   }
 
-  .schedule-cont{
-    overflow: hidden;
+  .feature-area .single-feature p1{
+    font-size:1.1rem;
+    margin-bottom: 1rem;
   }
-  .schedule-table{
-    overflow-x: scroll;
-    min-width: 90rem;
+
+  .feature-area .single-feature p2{
+    font-size:1.1rem;
+    margin-bottom: 1rem;
   }
+
+  
+
+  /* Donate */
 
   .address-box{
     width:90%;
@@ -3979,6 +4010,8 @@ ul.books-items li.book-item {
     font-weight: 500;
   }
 
+  /* Products */
+
   .category-name{
     font-size: 1rem;
   }
@@ -3993,7 +4026,6 @@ ul.books-items li.book-item {
   .book-item{
     height: auto;
   }
-
 }
 
 
