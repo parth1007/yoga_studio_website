@@ -3614,6 +3614,10 @@ body::-webkit-scrollbar {
 
 /*  --------------- Products ---------------- */
 
+.books-container{
+  padding-bottom: 3rem;
+}
+
 #products-container{
   width:80%;
   margin-left:10%;
@@ -3783,7 +3787,7 @@ ul.books-items li.book-item {
 }
 
 .p-grid-item{
-  height: 15rem;
+  height: 17rem;
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
   width: 12rem;
   display: flex;
@@ -3807,6 +3811,8 @@ ul.books-items li.book-item {
   align-items:center;
   font-size: 1.2rem;
   font-weight: 600;
+  text-align: center;
+  padding: 2rem 0;
 }
 
 .p-grid-item-price{
@@ -3977,13 +3983,16 @@ ul.books-items li.book-item {
     font-size: 1rem;
   }
 
-  .contact .contact-form{
-    max-width:425px;
+  .book-name{
+    padding-left: 1rem;
   }
-
-
-
-  
+  .book{
+    font-size: 13px;
+    padding:5px 10px;
+  }
+  .book-item{
+    height: auto;
+  }
 
 }
 

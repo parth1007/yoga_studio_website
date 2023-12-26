@@ -1,97 +1,234 @@
 {
-    "books":[
-        { 
-            "name":"The Alchemist",
-            "publication": "Paulo Coelho", 
-            "price": "200"
-        },
-        { 
-            "name":"The Alchemist",
-            "publication": "Paulo Coelho", 
-            "price": "200"
-        },
-        { 
-            "name":"The Alchemist",
-            "publication": "Paulo Coelho", 
-            "price": "200"
-        },
-        { 
-            "name":"The Alchemist",
-            "publication": "Paulo Coelho", 
-            "price": "200"
-        },
-        { 
-            "name":"The Alchemist",
-            "publication": "Paulo Coelho", 
-            "price": "200"
-        },
-        { 
-            "name":"The Alchemist",
-            "publication": "Paulo Coelho", 
-            "price": "200"
-        }
-    ],
-    "clothing":[
-        { 
-            "name":"The Alchemist",
-            "img": "/img/blog/yoga_inspire.jpg", 
-            "price": "200"
-        },
-        { 
-            "name":"The Alchemist",
-            "img": "/img/blog/yoga_inspire.jpg", 
-            "price": "200"
-        },
-        { 
-            "name":"The Alchemist",
-            "img": "/img/blog/yoga_inspire.jpg", 
-            "price": "200"
-        },
-        { 
-            "name":"The Alchemist",
-            "img": "/img/blog/yoga_inspire.jpg", 
-            "price": "200"
-        },
-        { 
-            "name":"The Alchemist",
-            "img": "/img/blog/yoga_inspire.jpg", 
-            "price": "200"
-        }
-    ],
-    "miscellaneous":[
-        { 
-            "name":"The other thing",
-            "img": "/img/blog/yoga_inspire.jpg", 
-            "price": "200"
-        },
-        { 
-            "name":"The other thing",
-            "img": "/img/blog/yoga_inspire.jpg", 
-            "price": "200"
-        },
-        { 
-            "name":"The other thing",
-            "img": "/img/blog/yoga_inspire.jpg", 
-            "price": "200"
-        }
-    ],
-    "mats":[
-        { 
-            "name":"The Mat",
-            "img": "/img/blog/yoga_inspire.jpg", 
-            "price": "200"
-        },
-        { 
-            "name":"The Mat",
-            "img": "/img/blog/yoga_inspire.jpg", 
-            "price": "200"
-        },
-        { 
-            "name":"The Mat",
-            "img": "/img/blog/yoga_inspire.jpg", 
-            "price": "200"
-        }
-    ]
-
+  "books": [
+    {
+      "name": "Swamy Vivekananda - English ",
+      "publication": "Publication House of Ramakrishna Math",
+      "price": "100"
+    },
+    {
+      "name": "Mudra(Ayam Me)-Kannada",
+      "publication": "Swami Vivekananda Yoga Prakashana",
+      "price": "100"
+    },
+    {
+      "name": "Patanjali Yogasutra-English",
+      "publication": "Swami Vivekananda Yoga Prakashana",
+      "price": "80"
+    },
+    {
+      "name": "Yogasana for beginners",
+      "publication": "Swami Vivekananda Yoga Prakashana",
+      "price": "80"
+    },
+    {
+      "name": "Yoga Madhumeha-Kannada",
+      "publication": "Swami Vivekananda Yoga Prakashana",
+      "price": "100"
+    },
+    {
+      "name": "Samagra Yoga Chikitse-Kannada",
+      "publication": "Swami Vivekananda Yoga Prakashana",
+      "price": "130"
+    },
+    { "name": "Positive Health", "publication": "SVYP ", "price": "125" },
+    { "name": "Yoga for Arthrities ", "publication": "SVYP ", "price": "125" },
+    { "name": "Surya Namaskar-Kannada", "publication": "SVYP ", "price": "30" },
+    { "name": "Surya Namaskar-English", "publication": "SVYP ", "price": "50" },
+    {
+      "name": "Yoga for anxiety and Depression",
+      "publication": "SVYP ",
+      "price": "100"
+    },
+    { "name": "Yoga for Pregnency ", "publication": "SVYP ", "price": "125" },
+    { "name": "Yoga for Backpain", "publication": "SVYP ", "price": "125" },
+    {
+      "name": "Yoga for Digestive disorder ",
+      "publication": "SVYP ",
+      "price": "125"
+    },
+    {
+      "name": "Yoga for Bronchial Astama ",
+      "publication": "SVYP ",
+      "price": "125"
+    },
+    {
+      "name": "Yoga for Hypertension ",
+      "publication": "SVYP ",
+      "price": "125"
+    },
+    { "name": "Yoga for Diabetes", "publication": "SVYP ", "price": "125" },
+    { "name": "Pranayama -- English", "publication": "SVYP ", "price": "120" },
+    { "name": "Yoga", "publication": "SVYP ", "price": "75" },
+    {
+      "name": "Vyasa Pushpanjali - Kannada",
+      "publication": "SVYP ",
+      "price": "50"
+    },
+    {
+      "name": "Vyasa Pushpanjali -  English",
+      "publication": "SVYP ",
+      "price": "90"
+    },
+    {
+      "name": "Vyasa Pushpanjali - Hindi",
+      "publication": "SVYP ",
+      "price": "50"
+    },
+    { "name": "Kreeda Yoga -- English", "publication": "SVYP ", "price": "25" },
+    {
+      "name": "Yogadeepika -- Kannada",
+      "publication": "Vivekananda Kendra Prakashana",
+      "price": "500"
+    },
+    {
+      "name": "Light on Yoga",
+      "publication": "Harper Collins Publishers",
+      "price": "500"
+    },
+    { "name": "MSRT BOOKS", "publication": "SVYP ", "price": "40" },
+    {
+      "name": "Light on the yoga sutras of Patanjali",
+      "publication": "Harper Element, An Imprint of Harper Collins Publishers",
+      "price": "400"
+    },
+    {
+      "name": "Pranic Energisation Technique -PET",
+      "publication": "SVYP ",
+      "price": "50"
+    },
+    {
+      "name": "samaadhana chittaragiri",
+      "publication": "Vishwastha Mandali",
+      "price": "20"
+    },
+    {
+      "name": "Yoga for Common Ailments",
+      "publication": "SVYP",
+      "price": "350"
+    },
+    { "name": "Yoga for Cancer", "publication": "SVYP", "price": "600" },
+    {
+      "name": "Gita Bhavadhare",
+      "publication": "Sri Ramakrishna Ashrama, Mysore",
+      "price": "220"
+    },
+    {
+      "name": "Pranayama Prakashika - Kannada",
+      "publication": "Navakarnataka Prakashana",
+      "price": "250"
+    },
+    { "name": "Kriyas  -- Kannada", "publication": "SVYP", "price": "70" },
+    { "name": "Kiryas -- English", "publication": "nan", "price": "75" },
+    {
+      "name": "Mudra Vijnana & Health - Kannada",
+      "publication": "Vasantha Prakashana",
+      "price": "250"
+    },
+    {
+      "name": "Yoga Pravesha -- Kannada",
+      "publication": "Navakarnataka Prakashana",
+      "price": "85"
+    },
+    {
+      "name": "Bennu Novige Yoga Chikitse- Kann",
+      "publication": "Navakarnataka Prakashana",
+      "price": "120"
+    },
+    { "name": "Gita Workspaces", "publication": "SVYP", "price": "300" },
+    { "name": "Yoga & Memory", "publication": "SVYP", "price": "50" },
+    { "name": "Yoga & Cancer", "publication": "SVYP", "price": "50" },
+    {
+      "name": "Krida Yoga - Kannada",
+      "publication": "Vivekananda Kendra Prakashana",
+      "price": "40"
+    },
+    {
+      "name": "New Perspectives in Stress Management -- SMET",
+      "publication": "SVYP ",
+      "price": "100"
+    },
+    {
+      "name": "A Glimpse of Human Body",
+      "publication": "SVYP",
+      "price": "100"
+    },
+    {
+      "name": "Yoga Nidra",
+      "publication": "Yoga Publications Trust, Munger, Bihar",
+      "price": "300"
+    },
+    { "name": "Yoga for Diabetes", "publication": "SVYP", "price": "450" },
+    { "name": "Yoga for Depression", "publication": "SVYP", "price": "600" }
+  ],
+  "clothing": [
+    {
+      "name": "T-Shirts -All sizes",
+      "img": "/img/blog/yoga_inspire.jpg",
+      "price": "350"
+    },
+    {
+      "name": "Pant -  All sizes",
+      "img": "/img/blog/yoga_inspire.jpg",
+      "price": "450"
+    }
+  ],
+  "miscellaneous": [
+    {
+        "name": "Bhagavdgeetha CD",
+        "img": "/img/blog/yoga_inspire.jpg",
+        "price": "90"
+    },
+    {
+        "name": "MSRT CD",
+        "img": "/img/blog/yoga_inspire.jpg",
+        "price": "90"
+    },
+    {
+        "name": "Jalaneti Pots",
+        "img": "/img/blog/yoga_inspire.jpg",
+        "price": "50"
+    },
+    {
+        "name": "Catheter",
+        "img": "/img/blog/yoga_inspire.jpg",
+        "price": "30"
+    },
+    {
+        "name": "Eye cups",
+        "img": "/img/blog/yoga_inspire.jpg",
+        "price": "20"
+    },
+    {
+        "name": "Yoga Sitting Benches",
+        "img": "/img/blog/yoga_inspire.jpg",
+        "price": "500"
+    }
+  ],
+  "mats": [
+    {
+        "name": "Yoga Mats -- 6 MM Thickness",
+        "img": "/img/blog/yoga_inspire.jpg",
+        "price": "800"
+    },
+    {
+        "name": "Yoga Mats -- 4 MM Thickness",
+        "img": "/img/blog/yoga_inspire.jpg",
+        "price": "600"
+    },
+    {
+        "name": "Yoga mat Bag -- W - 10', L - 30'",
+        "img": "/img/blog/yoga_inspire.jpg",
+        "price": "200"
+    },
+    {
+        "name": "Yoga Cotton Mat",
+        "img": "/img/blog/yoga_inspire.jpg",
+        "price": "600"
+    },
+    {
+        "name": "Yoga Cotton Mat - Used",
+        "img": "/img/blog/yoga_inspire.jpg",
+        "price": "200"
+    }
+  ]
 }
-    
