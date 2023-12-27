@@ -163,12 +163,12 @@
   "clothing": [
     {
       "name": "T-Shirts -All sizes",
-      "img": "/img/products/tshirt.jpg",
+      "img": "./img/products/tshirt.jpg",
       "price": "350"
     },
     {
       "name": "Pant -  All sizes",
-      "img": "/img/products/pant.jpeg",
+      "img": "./img/products/pant.jpeg",
       "price": "450"
     }
   ],
@@ -200,7 +200,7 @@
     },
     {
         "name": "Yoga Sitting Benches",
-        "img": "./img/blog/benches.png",
+        "img": "./img/products/benches.png",
         "price": "500"
     }
   ],
