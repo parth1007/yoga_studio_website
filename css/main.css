@@ -2017,8 +2017,10 @@ body.mobile-nav-active #mobile-nav-toggle {
         padding-left: 10%;
         padding-right: 13%; } }
   @media (max-width: 767px) {
-    .banner-area .banner-img {
-      display: none; } }
+    /* .banner-area .banner-img {
+      display: none; 
+    }  */
+    }
 
 @media (max-width: 767px) {
   .fullscreen {
@@ -3942,6 +3944,13 @@ ul.books-items li.book-item {
 
   /* Home */
 
+  .banner-area .banner-img{
+    padding-top: 6rem;
+  }
+  .banner-content{
+    padding-bottom: 4rem;
+  }
+
   .about-us-text{
     font-size: 3.5vw;
     letter-spacing: 0.5px;
@@ -3979,6 +3988,7 @@ ul.books-items li.book-item {
 
   .feature-area .single-feature h4{
     font-size:1.5rem;
+    
   }
 
   .feature-area .single-feature p1{
@@ -3989,6 +3999,26 @@ ul.books-items li.book-item {
   .feature-area .single-feature p2{
     font-size:1.1rem;
     margin-bottom: 1rem;
+  }
+
+  .footer-area{
+    padding:3rem 0 5rem 0;
+  }
+
+
+  .footer-cont{
+    display: flex; 
+  }
+  .f-address{
+    width: 90%;
+    margin-bottom: 3rem;
+
+  }
+  .f-contactno{
+    width: 45%;
+  }
+  .f-icons{
+    width:45%;
   }
 
   
