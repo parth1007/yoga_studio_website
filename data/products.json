@@ -163,71 +163,71 @@
   "clothing": [
     {
       "name": "T-Shirts -All sizes",
-      "img": "/img/blog/yoga_inspire.jpg",
+      "img": "/img/products/tshirt.jpg",
       "price": "350"
     },
     {
       "name": "Pant -  All sizes",
-      "img": "/img/blog/yoga_inspire.jpg",
+      "img": "/img/products/pant.jpeg",
       "price": "450"
     }
   ],
   "miscellaneous": [
     {
         "name": "Bhagavdgeetha CD",
-        "img": "/img/blog/yoga_inspire.jpg",
+        "img": "./img/blog/yoga_inspire.jpg",
         "price": "90"
     },
     {
         "name": "MSRT CD",
-        "img": "/img/blog/yoga_inspire.jpg",
+        "img": "./img/blog/yoga_inspire.jpg",
         "price": "90"
     },
     {
         "name": "Jalaneti Pots",
-        "img": "/img/blog/yoga_inspire.jpg",
+        "img": "./img/blog/yoga_inspire.jpg",
         "price": "50"
     },
     {
         "name": "Catheter",
-        "img": "/img/blog/yoga_inspire.jpg",
+        "img": "./img/blog/yoga_inspire.jpg",
         "price": "30"
     },
     {
         "name": "Eye cups",
-        "img": "/img/blog/yoga_inspire.jpg",
+        "img": "./img/blog/yoga_inspire.jpg",
         "price": "20"
     },
     {
         "name": "Yoga Sitting Benches",
-        "img": "/img/blog/yoga_inspire.jpg",
+        "img": "./img/blog/benches.png",
         "price": "500"
     }
   ],
   "mats": [
     {
         "name": "Yoga Mats -- 6 MM Thickness",
-        "img": "/img/blog/yoga_inspire.jpg",
+        "img": "./img/products/Yoga-Mats1.jpg",
         "price": "800"
     },
     {
         "name": "Yoga Mats -- 4 MM Thickness",
-        "img": "/img/blog/yoga_inspire.jpg",
+        "img": "./img/products/Yoga-Mats1.jpg",
         "price": "600"
     },
     {
         "name": "Yoga mat Bag -- W - 10', L - 30'",
-        "img": "/img/blog/yoga_inspire.jpg",
+        "img": "./img/products/Yoga-Mats1.jpg",
         "price": "200"
     },
     {
         "name": "Yoga Cotton Mat",
-        "img": "/img/blog/yoga_inspire.jpg",
+        "img": "./img/products/Yoga-Mats1.jpg",
         "price": "600"
     },
     {
         "name": "Yoga Cotton Mat - Used",
-        "img": "/img/blog/yoga_inspire.jpg",
+        "img": "./img/products/Yoga-Mats1.jpg",
         "price": "200"
     }
   ]
