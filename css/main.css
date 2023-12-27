@@ -3171,7 +3171,9 @@ padding-top:4rem; }
 /*  Footer Styles
 /* =================================== */
 .footer-area {
-  background: #232c49; }
+  background: #232c49;
+  padding:3rem 0;
+}
   .footer-area h4 {
     padding-bottom: 30px;
     color: #fff; }
@@ -3946,7 +3948,7 @@ ul.books-items li.book-item {
 
   .banner-area .banner-img{
     padding-top: 6rem;
-  }
+    }
   .banner-content{
     padding-bottom: 4rem;
   }
@@ -4002,7 +4004,7 @@ ul.books-items li.book-item {
   }
 
   .footer-area{
-    padding:3rem 0 5rem 0;
+    padding:3rem 0 3rem 0;
   }
 
 
