@@ -54,5 +54,33 @@
         "desc" : "",
         "author" : "Lakshmi Ananda",
         "link": "https://medium.com/@shreeyogavijnana/yogasana-away-from-the-mat-for-the-busy-superwoman-73e55a5f103f"
+    },
+    {
+        "name": "From pranayama to paramartha",
+        "img" : "./img/blog/blog5.webp",
+        "desc" : "",
+        "author" : "",
+        "link": "https://medium.com/@shreeyogavijnana/ಪ್ರಾಣಾಯಾಮದಿಂದ-ಪರಮಾತ್ಮ-ದ-ಕಡೆಗೆ-43758ae2d216"
+    },
+    {
+        "name": "Sthiram sukham asanam",
+        "img" : "./img/blog/blog7.webp",
+        "desc" : "",
+        "author" : "Shivaprakash Boganna",
+        "link": "https://medium.com/@shreeyogavijnana/ಸ್ಥಿರಂ-ಸುಖಂ-ಆಸನಂ-2df6d35bfe70"
+    },
+    {
+        "name": "Advanced Yoga",
+        "img" : "./img/blog/blog6.webp",
+        "desc" : "",
+        "author" : "Dr.BK Chandrashekhar",
+        "link": "https://medium.com/@shreeyogavijnana/advanced-yoga-1923fd614aca"
+    },
+    {
+        "name": "YIC ….Why I See ?",
+        "img" : "./img/blog/",
+        "desc" : "",
+        "author" : "Vani Hegde",
+        "link": "https://medium.com/@shreeyogavijnana/yic-why-i-see-3bd3098f268f"
     }
 ]
