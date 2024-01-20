@@ -92,7 +92,6 @@ export function renderTestimonialCard() {
       </div>
         
 
-
     `;
 
     var containerDiv = document.createElement("div");
