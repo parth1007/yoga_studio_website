@@ -19,7 +19,7 @@
         ]
     },
     {
-        "folder_name" : "Kere Habba",
+        "folder_name" : "Kere Habba Event",
         "cover_img" : "./img/gallery/kere_habba/20230312_073603.jpg",
         "images" : [
             "./img/gallery/kere_habba/20230312_072624.jpg",
@@ -33,7 +33,7 @@
         ]
     },
     {
-        "folder_name" : "Centre Premise",
+        "folder_name" : "Centre's Premise",
         "cover_img" : "./img/gallery/premise/20230917_075454.jpg",
         "images" : [
             "./img/gallery/premise/20230917_075411.jpg",
@@ -44,7 +44,7 @@
     },
     {
         "folder_name" : "Senior Citizen Classes",
-        "cover_img" : "./img/gallery/senior_citizen/20230315_092806.jpg",
+        "cover_img" : "./img/gallery/senior_citizen/senior.jpg",
         "images" : [
             "./img/gallery/senior_citizen/20220530_090654.jpg",
             "./img/gallery/senior_citizen/20220530_091242.jpg",
@@ -61,14 +61,14 @@
     },
     {
         "folder_name" : "YIC",
-        "cover_img" : "./img/gallery/yic/IMG_20210227_091617.jpg",
+        "cover_img" : "./img/gallery/yic/YIC.jpg",
         "images" : [
             "./img/gallery/yic/20220709_111936.jpg",
             "./img/gallery/yic/IMG-20220702-WA0004.jpg"
         ]
     },
     {
-        "folder_name" : "Yoga Day4",
+        "folder_name" : "Dasavatharam Event",
         "cover_img" : "./img/blog/post-img2.jpg",
         "images" : [
             "./img/blog/post-img2.jpg",
