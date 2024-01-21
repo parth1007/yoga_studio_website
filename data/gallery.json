@@ -3,10 +3,12 @@
         "folder_name" : "Regular Classes",
         "cover_img" : "./img/gallery/general/20220916_195938.jpg",
         "images" : [
+            "./img/gallery/general/20230217_080841.jpg",
+            "./img/gallery/general/20230315_091408.jpg",
+            "./img/gallery/general/20230706_091946.jpg",
             "./img/gallery/general/20220615_111521.jpg",
             "./img/gallery/general/20220623_111226.jpg",
             "./img/gallery/general/20220914_072015.jpg",
-            "./img/gallery/general/20220916_195938.jpg",
             "./img/gallery/general/20230123_164239.jpg",
             "./img/gallery/general/20230123_164646.jpg",
             "./img/gallery/general/20230206_113237.jpg",
