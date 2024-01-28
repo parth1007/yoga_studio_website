@@ -2320,8 +2320,8 @@ padding-top:4rem; }
 
 .feedbackBtn{
   display: block;
-  background-color: #3757f990;
-  border: 1px solid rgb(0, 0, 255);
+  background-color: #0093df;
+  border: 1px solid #0093df;
   border-radius: 5px;
   padding: 0.3rem 0.5rem;
   margin-left: 50%;
