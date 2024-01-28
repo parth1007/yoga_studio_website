@@ -68,48 +68,6 @@
             "./img/gallery/yic/20220709_111936.jpg",
             "./img/gallery/yic/IMG-20220702-WA0004.jpg"
         ]
-    },
-    {
-        "folder_name" : "Dasavatharam Event",
-        "cover_img" : "./img/blog/post-img2.jpg",
-        "images" : [
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg", 
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg", 
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg"  
-        ]
-    },
-    {
-        "folder_name" : "Yoga Day4",
-        "cover_img" : "./img/blog/post-img2.jpg",
-        "images" : [
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg", 
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg", 
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg",
-            "./img/blog/post-img2.jpg"  
-        ]
     }
     
 ]

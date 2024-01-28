@@ -32,7 +32,7 @@
     padding: 14px 20px;
     box-sizing: border-box;
     align-items: center;
-    color: black;
+    color: rgb(0, 28, 165);
     font-size: 1.1rem;
 }
 .accordion-item .accordion-item-desc {
@@ -44,7 +44,7 @@
     border-top: 1px dashed #ddd;
     padding: 10px 20px 20px;
     box-sizing: border-box;
-    color: rgb(26, 26, 26);
+    color: rgb(0, 0, 0);
     font-size: 0.9rem;
 }
 .accordion-item input[type="checkbox"] {
