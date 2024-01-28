@@ -68,6 +68,7 @@ export function renderTestimonialCard() {
   for (var i = 0; i < testimonialData.length; i++) {
     var feedbackText = testimonialData[i].feedback;
     var truncatedFeedback = truncateText(feedbackText, 55,i); 
+    var isMoreText = feedbackText.split(' ').length > 55;
     
     var card = `
       <div class="single-testimonial item">
@@ -76,11 +77,17 @@ export function renderTestimonialCard() {
             <div class="test-avatar">${testimonialData[i].person[0]}</div>
             <div class="feedback-name"> 
                 <h4 class="desc">${testimonialData[i].person}</h4>
-
             </div>
         </div>
         
         <div class="feedback-text" id="feedbackText${i}">${truncatedFeedback}</div>
+
+        ${isMoreText ?
+        `
+          <button class="feedbackBtn readLessBtn" id="readLessBtn${i}"> Read less </button>
+          <button class="feedbackBtn readMoreBtn" id="readMoreBtn${i}"> Read More </button>
+        `:''
+        }
         <img class="quote-vec" src="img/quote.png">
       </div>
     `;
@@ -92,32 +99,71 @@ export function renderTestimonialCard() {
   }
 
   document.addEventListener('DOMContentLoaded', function() {
-    var btnItems = document.querySelectorAll('.read-more-btn');
 
-    btnItems.forEach(function (item,idx) {
-      item.addEventListener('click',  () => {
-        var box = document.getElementById(`feedbackText${idx-1}`)
-        var feedbackText = testimonialData[idx-1].feedback;
-        box.innerHTML = feedbackText; 
-      
+    for (let i = 0; i < testimonialData.length; i++) {
+        var readMoreBtn = document.getElementById(`readMoreBtn${i}`)
+
+        readMoreBtn.addEventListener('click',  () => {
+          console.log(readMoreBtn,i)
+          var box = document.getElementById(`feedbackText${i}`)
+          var feedbackText = testimonialData[i].feedback;
+          box.innerHTML = feedbackText;    
+
+          var read_less_btn = document.getElementById(`readLessBtn${i}`);
+          read_less_btn.style.display = "block";
+          
+          var read_more_btn = document.getElementById(`readMoreBtn${i}`)
+          read_more_btn.style.display = "none";
+        });
+    }
+  });
+
+  document.addEventListener('DOMContentLoaded', function() {
+
+    for (let i = 0; i < testimonialData.length; i++) {
+      var readLessBtn = document.getElementById(`readLessBtn${i}`)
+
+      readLessBtn.addEventListener('click',  () => {
+        console.log(readLessBtn, i)
+        var box = document.getElementById(`feedbackText${i}`)
+        var feedbackText = testimonialData[i].feedback;
+        box.innerHTML = truncateText(feedbackText,55,i);    
+
+        var read_less_btn = document.getElementById(`readLessBtn${i}`);
+        read_less_btn.style.display = "none";
+        
+        var read_more_btn = document.getElementById(`readMoreBtn${i}`)
+        read_more_btn.style.display = "block";
       });
-    });
+    }
   });
 
 }
 
-function truncateText(text, maxWords) {
+function truncateText(text, maxWords,i) {
   var words = text.split(' ').slice(0, maxWords);
   var truncatedFeedback =  words.join(' ');
 
   var hasMoreText = text.split(' ').length > truncatedFeedback.split(' ').length;
 
-  if(hasMoreText) truncatedFeedback += `<span class="read-more-btn"> ... Read more </span>`;
+  // if(hasMoreText) truncatedFeedback += `<span class="read-more-btn" id="read-more-btn${i}"> ... Read more </span>`;
+  if(hasMoreText) truncatedFeedback += ` ... `;
 
   return truncatedFeedback;
 }
 
 
+// btnItems.forEach(function (item,idx) {
+//   item.addEventListener('click',  () => {
+//     console.log(item,idx)
+//     var box = document.getElementById(`feedbackText${idx}`)
+//     var feedbackText = testimonialData[idx].feedback;
+//     box.innerHTML = expandedText(feedbackText);    
+
+//     var read_less_btn = document.getElementById(`readLessBtn${idx}`);
+//     read_less_btn.style.display = "block";
+//   });
+// });
 
 
 export function renderBlogCard() {
