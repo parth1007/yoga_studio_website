@@ -45,6 +45,21 @@
         ]
     },
     {
+        "folder_name" : "Advance Yoga Class",
+        "cover_img" : "./img/gallery/advanced_yoga/9.jpg",
+        "images" : [
+            "./img/gallery/advanced_yoga/1.jpg",
+            "./img/gallery/advanced_yoga/2.jpg",
+            "./img/gallery/advanced_yoga/3.jpg",
+            "./img/gallery/advanced_yoga/4.jpg",
+            "./img/gallery/advanced_yoga/5.jpg",
+            "./img/gallery/advanced_yoga/6.jpg",
+            "./img/gallery/advanced_yoga/7.jpg",
+            "./img/gallery/advanced_yoga/8.jpg",
+            "./img/gallery/advanced_yoga/9.jpg"
+        ]
+    },
+    {
         "folder_name" : "Senior Citizen Classes",
         "cover_img" : "./img/gallery/senior_citizen/senior.jpg",
         "images" : [
@@ -63,10 +78,30 @@
     },
     {
         "folder_name" : "YIC",
-        "cover_img" : "./img/gallery/yic/YIC.jpg",
+        "cover_img" : "./img/gallery/yic/4.jpg",
         "images" : [
             "./img/gallery/yic/20220709_111936.jpg",
-            "./img/gallery/yic/IMG-20220702-WA0004.jpg"
+            "./img/gallery/yic/IMG-20220702-WA0004.jpg",
+            "./img/gallery/yic/1.jpg",
+            "./img/gallery/yic/2.jpg",
+            "./img/gallery/yic/3.jpg",
+            "./img/gallery/yic/4.jpg",
+            "./img/gallery/yic/5.png",
+            "./img/gallery/yic/6.png",
+            "./img/gallery/yic/7.png",
+            "./img/gallery/yic/8.jpg",
+            "./img/gallery/yic/9.jpg",
+            "./img/gallery/yic/10.jpg"
+            
+        ]
+    },
+    {
+        "folder_name" : "Dr. Nagendra",
+        "cover_img" : "./img/gallery/dr_nagendra/2.jpg",
+        "images" : [
+            "./img/gallery/dr_nagendra/1.jpg",
+            "./img/gallery/dr_nagendra/3.jpg"
+            
         ]
     }
     
