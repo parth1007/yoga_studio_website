@@ -3,35 +3,35 @@
         "folder_name" : "Regular Classes",
         "cover_img" : "./img/gallery/general/20220916_195938.jpg",
         "images" : [
-            "./img/gallery/general/20230217_080841.jpg",
-            "./img/gallery/general/20230315_091408.jpg",
-            "./img/gallery/general/20230706_091946.jpg",
-            "./img/gallery/general/20220615_111521.jpg",
-            "./img/gallery/general/20220623_111226.jpg",
-            "./img/gallery/general/20220914_072015.jpg",
-            "./img/gallery/general/20230123_164239.jpg",
-            "./img/gallery/general/20230123_164646.jpg",
-            "./img/gallery/general/20230206_113237.jpg",
-            "./img/gallery/general/20230224_111814.jpg",
-            "./img/gallery/general/20230224_111944.jpg", 
-            "./img/gallery/general/20230315_091349.jpg",
-            "./img/gallery/general/IMG-202e023.jpg",
-            "./img/gallery/general/IMG-2023022.jpg",
-            "./img/gallery/general/IMG-20230223.jpg"
+            "./img/gallery/general_compressed/20230217_080841.jpg",
+            "./img/gallery/general_compressed/20230315_091408.jpg",
+            "./img/gallery/general_compressed/20230706_091946.jpg",
+            "./img/gallery/general_compressed/20220615_111521.jpg",
+            "./img/gallery/general_compressed/20220623_111226.jpg",
+            "./img/gallery/general_compressed/20220914_072015.jpg",
+            "./img/gallery/general_compressed/20230123_164239.jpg",
+            "./img/gallery/general_compressed/20230123_164646.jpg",
+            "./img/gallery/general_compressed/20230206_113237.jpg",
+            "./img/gallery/general_compressed/20230224_111814.jpg",
+            "./img/gallery/general_compressed/20230224_111944.jpg", 
+            "./img/gallery/general_compressed/20230315_091349.jpg",
+            "./img/gallery/general_compressed/IMG-202e023.jpg",
+            "./img/gallery/general_compressed/IMG-2023022.jpg",
+            "./img/gallery/general_compressed/IMG-20230223.jpg"
         ]
     },
     {
         "folder_name" : "Kere Habba Event",
         "cover_img" : "./img/gallery/kere_habba/20230312_073603.jpg",
         "images" : [
-            "./img/gallery/kere_habba/20230312_072624.jpg",
-            "./img/gallery/kere_habba/20230312_072836.jpg",
-            "./img/gallery/kere_habba/20230312_073306.jpg",
-            "./img/gallery/kere_habba/20230312_073439.jpg",
-            "./img/gallery/kere_habba/20230312_073459.jpg", 
-            "./img/gallery/kere_habba/20230312_073521.jpg",
-            "./img/gallery/kere_habba/20230312_073603.jpg",
-            "./img/gallery/kere_habba/20230312_073603.jpg"
+            "./img/gallery/kere_habba_compressed/20230312_072624.jpg",
+            "./img/gallery/kere_habba_compressed/20230312_072836.jpg",
+            "./img/gallery/kere_habba_compressed/20230312_073306.jpg",
+            "./img/gallery/kere_habba_compressed/20230312_073439.jpg",
+            "./img/gallery/kere_habba_compressed/20230312_073459.jpg", 
+            "./img/gallery/kere_habba_compressed/20230312_073521.jpg",
+            "./img/gallery/kere_habba_compressed/20230312_073603.jpg",
+            "./img/gallery/kere_habba_compressed/20230312_073603.jpg"
         ]
     },
     {
