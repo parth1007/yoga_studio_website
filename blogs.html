@@ -89,8 +89,35 @@
 
 
     <script type="module"> 
-		import { renderBlogCard } from './js/renderCards.js';
-		renderBlogCard();
+		// import { renderBlogCard } from './js/renderCards.js';
+		// renderBlogCard();
+		import blogData from './data/blogs.json' with { type: "json" };
+
+		
+			var container = document.getElementById('blogContainer');
+			
+
+			var htmlContent = ""
+			
+
+			for (var i = 0; i < blogData.length; i++) {
+				var card = `
+					
+					<div class="blog-card" onclick="window.open('${blogData[i].link}', '_blank') ">
+					<img src=${blogData[i].img} class="blog-img">
+					<div class="blog-details">
+						<h4 style="font-weight:600">${blogData[i].name}</h4>
+						<h6><b>BY - ${blogData[i].author}</b></h6>
+					</div>
+					</div>
+				`;
+				
+				htmlContent += card;
+
+			}
+			container.innerHTML = htmlContent;
+			
+
 	</script>
 
 	<script src="js/vendor/jquery-2.2.4.min.js"></script>
