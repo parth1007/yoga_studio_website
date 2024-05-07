@@ -167,7 +167,7 @@ function truncateText(text, maxWords,i) {
 
 
 export function renderBlogCard() {
-  var container = document.getElementById("blogContainer");
+  var container = document.getElementById('blogContainer');
 
   var htmlContent = ""
   
