@@ -1,4 +1,4 @@
-import productsData from '../data/products.json' assert { type: "json" };
+import productsData from '../data/products.json' with { type: "json" };
 
 
 export function renderProducts() {

@@ -1,4 +1,4 @@
-import trainerData from '../data/trainers.json' assert { type: "json" };
+import trainerData from '../data/trainers.json' with { type: "json" };
 
 
 export function renderTeamModal() {

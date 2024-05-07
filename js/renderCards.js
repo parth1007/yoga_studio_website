@@ -1,7 +1,7 @@
-import classesData from '../data/classes.json' assert { type: "json" };
-import courseData from '../data/courses.json' assert { type: "json" };
-import blogData from '../data/blogs.json' assert { type: "json" };
-import testimonialData from '../data/testimonials.json' assert { type: "json" };
+import classesData from '../data/classes.json' with { type: "json" };
+import courseData from '../data/courses.json' with { type: "json" };
+import blogData from '../data/blogs.json' with { type: "json" };
+import testimonialData from '../data/testimonials.json' with { type: "json" };
 
 
 

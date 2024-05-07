@@ -1,4 +1,4 @@
-import galleryData from '../data/gallery.json' assert { type: "json" };
+import galleryData from '../data/gallery.json' with { type: "json" };
 
 
 export function renderFolders() {

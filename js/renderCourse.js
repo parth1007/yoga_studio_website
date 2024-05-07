@@ -1,4 +1,4 @@
-import courseData from '../data/courses.json' assert { type: "json" };
+import courseData from '../data/courses.json' with { type: "json" };
 
 
 export function renderCourseModal() {
