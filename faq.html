@@ -98,9 +98,9 @@
 	<!-- End team Area -->
 
 	<script type="module"> 
-        import faqData from './data/faq.json' assert { type: "json" };
+        import faqData from './data/faq.json' with { type: "json" };
 
-        const accordionContainer = document.getElementById("accordionCont");
+        const accordionContainer = document.getElementById('accordionCont');
 
         for (const item of faqData) {
             const accordionItemHTML = `

@@ -1,5 +1,5 @@
-import teachersData from '../data/trainers.json' assert { type: "json" };
-import managementData from '../data/management.json' assert { type: "json" };
+import teachersData from '../data/trainers.json' with { type: "json" };
+import managementData from '../data/management.json' with { type: "json" };
 
 import { renderTeamModal } from './teamModal.js';
 
