@@ -116,7 +116,7 @@
     {
         "name": "Gouri Hegde",
         "img" : "./img/Gouri.jpg",
-        "desc" : "Trustee",
+        "desc" : "Yoga Teacher",
         "quote": "Yoga means yuj, to join the body, soul and the supreme soul",
         "about" : "Kind-hearted and gentle, blessed with a melodious voice, Gouri didi has a very clear Sanskrit diction and gives importance to correct pronunciation of shlokas and words. Her sessions on Srimad Bhagavad Gita Chanting reverberate with devotion and melody.  She has been a part of SYVK since its inception and has been instrumental in spreading the knowledge of yoga to many school children, in North Bangalore. She takes a keen interest in gardening and is very creative not only in drawing and painting but also in yoga session sequencing. With a keen eye for perfection in asana, she guides her students to work towards the same. Being closely associated with the founders of S-VYASA, she is a ready reckoner for any doubts related to asana and pranayama practices for students and teachers alike. She is very committed and sincere in all her activities and successfully conducts yoga-based summer camps for children inculcating in them value for resources and love and respect for nature.  She credits her healthy body and mind to her long years of yoga practice. She has a huge fan following of students for her sweet voice and correct pronunciation. "
     },   
@@ -157,7 +157,7 @@
         "about" :"Just the presence of Smt Rajalakshmi is enough to make anybody feel calm and relaxed. Since 2015, she has been conducting yoga classes and her personal practice goes back to her early childhood. Having been practicing for so many years, she is very very convinced about the benefits of yoga for all and is passionate about her teaching. She wants to reach as many people as possible through her yoga sessions. She credits her flexible body and calm mind to her disciplined yoga routine. Maintaining a fine balance between her elderly in-laws and a young grandchild, she also is equally passionate about art and craft. She takes an active interest in our kids’ summer camp every year. " 
     },
     {
-        "name": "Rajalakshmi N",
+        "name": "Srinath NA",
         "img" : "./img/Srinath.jpg",
         "desc" : "Yoga Teacher",
         "quote": "Inspire mindfulness, balance and inner peace while motivating consistent practice and personal growth.",
@@ -184,6 +184,14 @@
         "quote": "Yoga is Flexible body, peaceful mind and stable breath",
         "about" :"Sandeep has been teaching yoga after himself getting the first hand experience of the benefits on his own physical health and mental stability. He is a very sincere practitioner and is disciplined in his personal sadhana and inspires his students also to not miss a single session. Since 2023, he has been spreading this ancient wisdom through free classes at the Allalasandra Lake Park, Yelahanka everyday for around 30 participants. He also conducts sessions for sportsmen to improve their focus and fitness to give their best possible presence in their tournaments. He has conducted Yoga sessions at Madarasas for the boys residing there." ,
         "style" : "width: 300px; height: auto;"
+    },
+    {
+        "name": "Asha BM",
+        "img" : "./img/Asha.jpg",
+        "desc" : "Yoga Teacher",
+        "quote": "“Harmonious collaboration of body, mind and soul”",
+        "about" :"ASHA B M is a dedicated Yoga Instructor and a passionate practitioner of yogic science. She completed her Yoga Instructor Course in our Institution to qualify as a teacher in the year 2025. Her educational qualifications include B.A & B.Ed in Arts. She is currently pursuing her Master’s degree (M.Sc) in Yogic Science, deepening her knowledge of traditional yogic principles and modern wellness practices. With a strong commitment to promoting holistic health, she teaches yoga as a path to achieve physical fitness, mental clarity, and emotional balance.ASHA B M believes that yoga is not only a form of exercise but a complete lifestyle that nurtures harmony between body, mind, and spirit. Through her teaching, she guides students in practicing asanas, pranayama, and meditation to improve overall wellbeing. She strives to make yoga accessible to people of all ages and backgrounds, helping them cultivate inner peace and a healthier life.Her mission is to spread the authentic values of yoga and inspire individuals to adopt yoga as a daily practice for better health, mindfulness, and self-awareness." 
+        
     }
 ]
 
