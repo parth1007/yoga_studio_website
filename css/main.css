@@ -4093,5 +4093,81 @@ ul.books-items li.book-item {
     height: auto;
   }
 }
+/* Add spacing above the banner area */
+.banner-area {
+  margin-top: 100px; /* Adjust this value to move it further down */
+}
+/* Blinking Gradient Animation for Heading */
+/* Blinking Effect for Heading */
+.yic-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ff6a00;
+  animation: blink-effect 1.5s infinite;
+}
+
+/* Keyframes for Blinking Effect */
+@keyframes blink-effect {
+  0%, 100% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0.5;
+  }
+}
+
+/* Subheading Styling */
+.yic-subheading {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Button with Hover Effect */
+.yic-btn {
+  background: #ff6a00;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  animation: button-blink 2s infinite alternate;
+}
+
+.yic-btn:hover {
+  background: #ee0979;
+  color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Gradient Animation Keyframes */
+@keyframes gradient-blink {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+/* Button Blinking Animation */
+@keyframes button-blink {
+  0% {
+      background-color: #ff6a00;
+  }
+  100% {
+      background-color: #ee0979;
+  }
+}
 
 
