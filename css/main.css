@@ -2557,7 +2557,7 @@ padding-top:4rem; }
     .blog-header-content h1 {
       font-size: 30px; } }
 .blog-header-content p {
-  margin: 20px 0px; }
+  margin: 0px 0px; }
 
 .top-category-widget-area {
   background-color: #f9f9ff; }
@@ -3981,7 +3981,7 @@ ul.books-items li.book-item {
   /* Home */
 
   .banner-area .banner-img{
-    padding-top: 6rem;
+    padding-top: 2rem;
     }
   .banner-content{
     padding-bottom: 4rem;
@@ -4099,22 +4099,36 @@ ul.books-items li.book-item {
 }
 /* Blinking Gradient Animation for Heading */
 /* Blinking Effect for Heading */
+/* YIC Banner Section */
+/* YIC Banner Section */
+.yic-banner {
+  /* Gradient background */
+  color: #fff;
+  padding: 50px 0; /* Add padding inside the section */
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 150px; /* Increase this value to move it further down */
+  margin-bottom: 5px; /* Add spacing below the section */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+}
+
+/* Heading Styling with Blinking Effect */
 .yic-heading {
   font-size: 2.5rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #ff6a00;
-  animation: blink-effect 1.5s infinite;
+  animation: blink-effect 1.5s infinite; /* Blinking effect */
 }
 
 /* Keyframes for Blinking Effect */
 @keyframes blink-effect {
   0%, 100% {
-      opacity: 1;
+    opacity: 1;
   }
   50% {
-      opacity: 0.5;
+    opacity: 0.5;
   }
 }
 
@@ -4127,7 +4141,7 @@ ul.books-items li.book-item {
   color: #555;
 }
 
-/* Button with Hover Effect */
+/* Button with Hover and Blinking Effect */
 .yic-btn {
   background: #ff6a00;
   color: #fff;
@@ -4138,7 +4152,7 @@ ul.books-items li.book-item {
   border-radius: 5px;
   text-decoration: none;
   transition: all 0.3s ease;
-  animation: button-blink 2s infinite alternate;
+  animation: button-blink 2s infinite alternate; /* Blinking effect for button */
 }
 
 .yic-btn:hover {
@@ -4147,27 +4161,71 @@ ul.books-items li.book-item {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Gradient Animation Keyframes */
-@keyframes gradient-blink {
+/* Button Blinking Animation */
+@keyframes button-blink {
   0% {
-      background-position: 0% 50%;
-  }
-  50% {
-      background-position: 100% 50%;
+    background-color: #ff6a00;
   }
   100% {
-      background-position: 0% 50%;
+    background-color: #ee0979;
   }
+}
+
+/* Heading Styling with Blinking Effect */
+.yic-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ff6a00;
+  animation: blink-effect 1.5s infinite; /* Blinking effect */
+}
+
+/* Keyframes for Blinking Effect */
+@keyframes blink-effect {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Subheading Styling */
+.yic-subheading {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Button with Hover and Blinking Effect */
+.yic-btn {
+  background: #ff6a00;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  animation: button-blink 2s infinite alternate; /* Blinking effect for button */
+}
+
+.yic-btn:hover {
+  background: #ee0979;
+  color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Button Blinking Animation */
 @keyframes button-blink {
   0% {
-      background-color: #ff6a00;
+    background-color: #ff6a00;
   }
   100% {
-      background-color: #ee0979;
+    background-color: #ee0979;
   }
 }
-
-
