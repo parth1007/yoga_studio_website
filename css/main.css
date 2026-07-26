@@ -4099,6 +4099,44 @@ ul.books-items li.book-item {
 }
 /* Blinking Gradient Animation for Heading */
 /* Blinking Effect for Heading */
+/* Announcement Banner Section */
+.announcement-banner {
+  background: #fff8f0;
+  border: 2px solid #ff6a00;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 100px;
+  margin-bottom: 5px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.announcement-img {
+  border-radius: 50%;
+  border: 3px solid #ff6a00;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+.announcement-badge {
+  display: inline-block;
+  background: #ff6a00;
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.announcement-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 0;
+}
+
 /* YIC Banner Section */
 /* YIC Banner Section */
 .yic-banner {
@@ -4107,7 +4145,7 @@ ul.books-items li.book-item {
   padding: 50px 0; /* Add padding inside the section */
   text-align: center;
   border-radius: 10px;
-  margin-top: 150px; /* Increase this value to move it further down */
+  margin-top: 20px; /* Space below the announcement banner above it */
   margin-bottom: 5px; /* Add spacing below the section */
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
 }
