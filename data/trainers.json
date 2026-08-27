@@ -49,6 +49,13 @@
         "quote": "Yoga is a way of life.",
         "about": "Sharath ji has been the Coordinator, YIC January batch 2026. "
     },
+     {
+        "name": "Smt. Prathima D.S",
+        "img" : "./img/Prathima.jpg",
+        "desc" : "Trustee & Yoga Teacher",
+        "quote": "Yoga is a way of life.",
+        "about" :"Starting her yoga career in 2016, she took it up as a commitment to reach out to those who are struggling with body pains and aches. Not before she experienced relief from severe neck and back pains because of her chores at home. She experimented with yoga postures by joining Shree Yoga Vijnana Kendra between 2013 and 2016. Her happiness and relief are reflected in her own words,  “After several months of consistent practice, all my body aches, anxiety and anger reduced.” <br><br> Her strength lies in the therapeutic yoga practices aimed at reducing backache, diabetes, blood pressure, and so on. Her yoga certifications include Yoga Instructor’s Course (YIC), Yoga Instructor for Diabetes Movement (YIDM), Advanced Yoga Training course (AYTC), and also completed Perinatal Yoga Course from S-VYASA."
+    },
     {
         "name": "Smt. Sharmila Mhashalkar",
         "img" : "./img/sharmila.jpg",
@@ -56,13 +63,7 @@
         "quote": "Yoga needs to be practiced and experienced for liberation",
         "about" :"Sharmila has been associated with SYVK from the year 2015. She has a good hold on Patanjali Yoga Sutra and has been teaching the same. She also conducts therapies for various yoga practitioners. She has also completed the Advanced Yoga Training Course and also conducts classes for many yogis for the same. She teaches Bhagavad Geeta to her students. To put it all together, She has been practicing and preaching both 'Yoga Marga' and 'Bhakti Marga'  to her students. <br><br> Her expertise lies in treating some of the most common but life-risking diseases. She has expertise in curing issues like Diabetes, Hypertension, PCOD and PCOS, obesity, High cholesterol, and backache. She undertakes need-based yoga therapy for prenatal and postnatal care. " 
     },
-    {
-        "name": "Smt. Prathima D.S",
-        "img" : "./img/Prathima.jpg",
-        "desc" : "Trustee & Yoga Teacher",
-        "quote": "Yoga is a way of life.",
-        "about" :"Starting her yoga career in 2016, she took it up as a commitment to reach out to those who are struggling with body pains and aches. Not before she experienced relief from severe neck and back pains because of her chores at home. She experimented with yoga postures by joining Shree Yoga Vijnana Kendra between 2013 and 2016. Her happiness and relief are reflected in her own words,  “After several months of consistent practice, all my body aches, anxiety and anger reduced.” <br><br> Her strength lies in the therapeutic yoga practices aimed at reducing backache, diabetes, blood pressure, and so on. Her yoga certifications include Yoga Instructor’s Course (YIC), Yoga Instructor for Diabetes Movement (YIDM), Advanced Yoga Training course (AYTC), and also completed Perinatal Yoga Course from S-VYASA."
-    },
+   
     {
         "name": "Smt. Rashmi C",
         "img" : "./img/RashmiC.jpg",
