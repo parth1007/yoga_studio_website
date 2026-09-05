@@ -4257,6 +4257,67 @@ ul.books-items li.book-item {
   margin-bottom: 20px;
 }
 
+/* Latest Events Page */
+.event-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.event-person-img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50%;
+  border: 3px solid #ff6a00;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+.event-news-img {
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.event-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.event-meta {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.event-desc {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.event-desc-caption {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #888;
+}
+
+.event-links {
+  margin-top: 20px;
+}
+
+.event-secondary-btn {
+  background: transparent;
+  color: #ff6a00;
+  border: 2px solid #ff6a00;
+  margin-left: 10px;
+}
+
 .yt-play-overlay {
   position: absolute;
   inset: 0;
