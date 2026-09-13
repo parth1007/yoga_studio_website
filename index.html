@@ -102,67 +102,6 @@
 		
 	</header>
 	<!-- end header Area -->
-	<section class="iayt-banner">
-		<div class="container">
-			<div class="row align-items-center justify-content-center">
-				<div class="col-lg-4 col-md-5 col-sm-6 text-center">
-					<img src="img/IAYT.jpeg" alt="Integrated Approach to Yoga Therapy (IAYT) - Expert Guidance Series with Ayurvedacharya Dr. Manjunath G" class="iayt-img img-fluid">
-				</div>
-				<div class="col-lg-8 col-md-7">
-					<div class="iayt-content">
-						<span class="iayt-badge">Upcoming Event</span>
-						<h2 class="iayt-heading">Integrated Approach to Yoga Therapy (IAYT)</h2>
-						<p class="iayt-subheading">Expert Guidance Series &bull; by <strong>Ayurvedacharya Dr. Manjunath G</strong></p>
-						<p class="iayt-meta">Saturday, 12th September 2026 &bull; 8:00 AM &bull; Kindly be seated by 7:45 AM</p>
-						<div class="iayt-countdown" id="iayt-countdown">
-							<div class="iayt-countdown-item">
-								<span class="iayt-countdown-num" id="iayt-days">00</span>
-								<span class="iayt-countdown-label">Days</span>
-							</div>
-							<div class="iayt-countdown-item">
-								<span class="iayt-countdown-num" id="iayt-hours">00</span>
-								<span class="iayt-countdown-label">Hours</span>
-							</div>
-							<div class="iayt-countdown-item">
-								<span class="iayt-countdown-num" id="iayt-minutes">00</span>
-								<span class="iayt-countdown-label">Minutes</span>
-							</div>
-							<div class="iayt-countdown-item">
-								<span class="iayt-countdown-num" id="iayt-seconds">00</span>
-								<span class="iayt-countdown-label">Seconds</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<script>
-		(function () {
-			var eventDate = new Date("2026-09-12T08:00:00+05:30").getTime();
-			var countdownEl = document.getElementById('iayt-countdown');
-			var timerInterval;
-			function updateCountdown() {
-				var now = new Date().getTime();
-				var distance = eventDate - now;
-				if (distance <= 0) {
-					countdownEl.innerHTML = '<span class="iayt-countdown-started">The event has begun!</span>';
-					clearInterval(timerInterval);
-					return;
-				}
-				var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-				var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-				var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-				var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-				document.getElementById('iayt-days').textContent = String(days).padStart(2, '0');
-				document.getElementById('iayt-hours').textContent = String(hours).padStart(2, '0');
-				document.getElementById('iayt-minutes').textContent = String(minutes).padStart(2, '0');
-				document.getElementById('iayt-seconds').textContent = String(seconds).padStart(2, '0');
-			}
-			updateCountdown();
-			timerInterval = setInterval(updateCountdown, 1000);
-		})();
-	</script>
 	<section class="announcement-banner">
 		<div class="container">
 			<div class="row align-items-center justify-content-center">
@@ -186,7 +125,7 @@
 						<div class="col-lg-8 col-md-10">
 								<div class="yic-content">
 										<h2 class="yic-heading">New YIC Batch Starting Soon!</h2>
-										<p class="yic-subheading">Join our Yoga Instructor Course (YIC) new batch starting <strong>19th July</strong>. Registrations open till <strong>31st July</strong>. Learn from experienced teachers and embark on a transformative journey of yoga and wellness.</p>
+										<p class="yic-subheading">Join our Yoga Instructor Course (YIC) new batch starting in <strong>January</strong>. Registrations opening soon. Learn from experienced teachers and embark on a transformative journey of yoga and wellness.</p>
 										<a href="contact.html" class="primary-btn yic-btn">Enroll Now</a>
 								</div>
 						</div>
